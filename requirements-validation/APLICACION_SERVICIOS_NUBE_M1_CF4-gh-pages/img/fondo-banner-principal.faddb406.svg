@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1270" height="540" viewBox="0 0 1270 540">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_5342" data-name="Rectángulo 5342" width="1270" height="540" rx="20" transform="translate(48 70)" fill="#4dd0e1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.796" y1="0.351" x2="-0.277" y2="1.269" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#92b3ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.796" y1="0.351" x2="0.244" y2="1.378" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_26057" data-name="Grupo 26057" transform="translate(-48 -70)">
+    <rect id="Rectángulo_4953" data-name="Rectángulo 4953" width="1270" height="540" rx="20" transform="translate(48 70)" fill="#4dd0e1"/>
+    <g id="Enmascarar_grupo_55" data-name="Enmascarar grupo 55" opacity="0.4" clip-path="url(#clip-path)">
+      <g id="Grupo_25670" data-name="Grupo 25670">
+        <rect id="Rectángulo_5341" data-name="Rectángulo 5341" width="250.662" height="138" transform="matrix(0.891, -0.454, 0.454, 0.891, -19.062, 95.15)" opacity="0.76" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_5360" data-name="Rectángulo 5360" width="1271.665" height="138" transform="matrix(0.891, -0.454, 0.454, 0.891, 338.938, 612.15)" opacity="0.76" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_5344" data-name="Rectángulo 5344" width="996.207" height="89" transform="matrix(0.891, -0.454, 0.454, 0.891, 629.764, 607.946)" opacity="0.76" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_5369" data-name="Rectángulo 5369" width="996.207" height="173" transform="matrix(0.891, -0.454, 0.454, 0.891, 947.764, 616.946)" opacity="0.76" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_5345" data-name="Rectángulo 5345" width="636.787" height="24" transform="matrix(0.891, -0.454, 0.454, 0.891, 736.351, 622.445)" opacity="0.76" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_5343" data-name="Rectángulo 5343" width="722" height="266.406" transform="matrix(0.891, -0.454, 0.454, 0.891, 782.585, 610.733)" opacity="0.76" fill="url(#linear-gradient-6)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>

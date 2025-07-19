@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Nivel básico</title>
+        <meta meta name="description" content="En este guión se busca hacer un acercamiento conceptual a todo lo relacionado con los conjuntos numéricos (naturales, enteros, racionales, irracionales reales y complejos).">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link text-white" href="#IndiceTematico"><span>Índice temático</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link text-white" href="#Creditos"><span>Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Matemáticas</h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Nivel básico</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">En este guión se busca hacer un acercamiento conceptual a todo lo relacionado con los conjuntos numéricos (naturales, enteros, racionales, irracionales reales y complejos).</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-play"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-1">Introducción</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-1">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-2">Conjuntos numéricos</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-2">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">2</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-3">Operaciones aritméticas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-3">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">3</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-4">Razones y proporciones</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-4">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-sort-alpha-asc"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#glosario">Glosario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#glosario">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-folder-open"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#anexos">Material complementario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#anexos">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-book"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#referencias">Referencias bibliográficas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#referencias">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="tema-1">
+                <div class="container" id="intro">
+                    <div class="header-ecored">
+                        <h1>Introducción</h1>
+                    </div>
+                    <div class="card shadow">
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/2GzNRY2iYNg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>Los números naturales surgieron de la necesidad del ser humano de negociar y ordenar cosas, el hombre tuvo la necesidad de representar las cantidades de lo que tenía para saber con qué contaba exactamente. De ahí surgió la necesidad de crear símbolos que representaran esas cantidades.</p>
+                                <p class="mt-4">A partir de esta necesidad el hombre crea lo que hoy conocemos como números naturales. Estos son los primeros que surgen en las distintas civilizaciones debido a que contar y ordenar elementos son las tareas más elementales en el tratamiento de las cantidades.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-2">
+                <div class="container" id="conjuntos">
+                    <div class="header-ecored">
+                        <h1>1. Conjuntos numéricos</h1>
+                    </div>
+                    <div class="card shadow"><img class="img-fluid" src="assets/images/pages/img1.png" style="max-width: 100%">
+                        <div class="card-body">
+                            <h3>Bienvenidos</h3>
+                            <p class="mb-4">El desarrollo de la humanidad se ha dado a partir de las dificultades o necesidades que se presentan a lo largo de la historia, por ejemplo, el hombre primitivo sintió hambre entonces tuvo la necesidad de buscar comida fuese cazándola, colectándola o cultivándola; sintió frío entonces desarrolló el fuego y encontró la manera de cubrirse con pieles de animales.</p>
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <p>Así mismo pasó con el desarrollo de las matemáticas, más específicamente con el surgimiento de los números y los conjuntos numéricos que eran utilizados para contar, hacer cálculos, resolver problemas, y demás actividades que requerían de la implementación del uso de las matemáticas.</p>
+                                    <p class="mt-4">En este espacio, nos ocuparemos en el estudio de los conjuntos numéricos: ¿qué son? ¿para qué sirven? ¿cómo se aplican?, conceptos que nos ayudarán a entender la naturaleza de los números y poder comprender el desarrollo de los temas posteriores de este curso.</p>
+                                    <p class="mt-4">Para el SENA es importante el desarrollo de las competencias en el ámbito educativo, laboral y personal.</p>
+                                </div>
+                                <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img2.png" style="max-width: 60%"></div>
+                            </div>
+                        </div>
+                    </div><br id="numero1">
+                    <div class="header-ecored">
+                        <h2>1.1 Números naturales</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow"><img class="img-fluid img-a" src="assets/images/pages/img3.png" style="max-width: 60%">
+                        <p>Daremos inicio con el conjunto de los números naturales que se denotan con la letra <b>(N)</b>.</p>
+                        <div class="row justify-content-center">
+                            <div class="col-8 text-center bg-color1">
+                                <p class="mb-0"><b>N</b> = { 1, 2, 3, 4, 5, 6, 7,.......}</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">El conjunto de los números naturales surgió de la necesidad de contar, lo cual se manifiesta en el ser humano desde sus inicios.</p>
+                        <p>Este conjunto se caracteriza porque:</p>
+                        <div class="row align-items-center mt-4">
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img4.png" style="max-width: 60%"></div>
+                            <div class="col">
+                                <div class="row justify-content-center">
+                                    <div class="col-11">
+                                        <div class="list align-items-start mt-4">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Tiene un número infinito de elementos.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-4">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Cada elemento tiene un sucesor y todos, excepto el 1, un antecesor.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-4">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">El sucesor de un número natural, se obtiene sumando uno (+1); el antecesor se obtiene restando uno (-1).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="mt-5 text-center txt-color1">Representación en la recta numérica de los naturales</h3><img class="img-fluid img-a" src="assets/images/pages/img5.png" style="max-width: 100%">
+                        <div class="row justify-content-center">
+                            <div class="col-8 my5 bg-color2 py-5 pl-6 pr-4">
+                                <h4 class="mt-4 text-center txt-color1 ml-6">Números Naturales</h4>
+                                <div class="hr ml-6"></div>
+                                <h1 class="text-center txt-color1 ml-6">3 + 1 = 4</h1>
+                                <p>Utilizados para labores de conteo de objetos. Lo constituyen los enteros positivos <b>(1, 2, 3, 4, 5, 6, …)</b></p>
+                            </div>
+                        </div>
+                    </div><br id="numero2">
+                    <div class="header-ecored">
+                        <h2>1.2 Números enteros</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Los números enteros surgieron de la necesidad de incluir números negativos para dar solución a algunos problemas de matemáticas que no tendrían solución solo con números naturales.</p>
+                        <p>Algunos ejemplos del uso de los números enteros son los siguientes:</p>
+                        <div class="row justify-content-center">
+                            <div class="col-8 bg-color1">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="mb-0">Señalar una temperatura bajo cero en la escala Celsius (“En estos momentos, la temperatura en Bariloche es de <b>-10°</b>”) o una profundidad bajo el nivel del mar (“El barco hundido fue hallado a <b>-135 metros</b>”).</p>
+                                    </div>
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img6.png" style="max-width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3">Este conjunto numérico nos permite realizar las operaciones básicas como <b>la suma, la resta, la multiplicación y la división</b>, los hindúes fueron los precursores en el manejo de los números enteros, siguiendo unas reglas específicas; para la suma y la resta se utiliza la recta numérica y para la multiplicación y la división se hace uso de la <b>ley de signos</b>:</p>
+                        <div class="row justify-content-around">
+                            <div class="col-5 bg-color1 text-center">
+                                <p class="mb-0">+ por + = +</p>
+                            </div>
+                            <div class="col-5 bg-color1 text-center">
+                                <p class="mb-0">- por - = +</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-around">
+                            <div class="col-5 bg-color1 text-center">
+                                <p class="mb-0">+ por - = -</p>
+                            </div>
+                            <div class="col-5 bg-color1 text-center">
+                                <p class="mb-0">- por + = -</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">En materia de multiplicación hay que subrayar además que existen diversas propiedades como son la asociativa, la distributiva o la conmutativa.</p>
+                        <p>Continuemos con el conjunto de los números enteros que se denotan con la letra <b>(Z)</b>.</p>
+                        <div class="row justify-content-around">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0"><b>Z</b> = {. . ., –3, -2, -1, 0, 1, 2, 3, . . .}</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">El conjunto de los números enteros surge de la necesidad de dar solución general a la sustracción, pues cuando el sustraendo es mayor que el minuendo, esta sustracción no tiene solución en los conjuntos naturales (por ejemplo: 5 – 20 = ¿?).</p>
+                        <h3 class="mt-5 txt-color1">Ejemplo</h3>
+                        <div class="row justify-content-around">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0">5 – 20 = <b>¿?</b></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-8 my5 bg-color2 py-5 pl-6 pr-4">
+                                <h4 class="mt-4 text-center txt-color1 ml-6">Números Enteros</h4>
+                                <div class="hr ml-6"></div>
+                                <h1 class="text-center txt-color1 ml-6">Z</h1>
+                                <p>Resultado de la unión de los números naturales, el cero y los números negativos <b>(. ., -2, -1, 0, 1, 2, . . .)</b>.</p>
+                            </div>
+                        </div>
+                        <h3 class="mt-5 txt-color1 text-center">Sustracción de números naturales</h3>
+                        <p class="text-center">Es la operación de <b>restar</b> (quitar, disminuir).</p><img class="img-fluid img-a" src="assets/images/pages/img7.png" style="max-width: 60%">
+                        <p>Debido a esto, la recta numérica se extiende hacia la izquierda, de modo que a cada punto que representa un número natural le corresponda un punto simétrico, situado a la izquierda del cero. </p>
+                        <p>El punto simétrico, es aquel que está ubicado a igual distancia del cero (uno a la derecha y el otro a la izquierda de él).</p>
+                        <div class="row justify-content-center">
+                            <div class="col-8 my5 bg-color2 py-5 pl-6 pr-4">
+                                <h4 class="mt-4 text-center txt-color1 ml-6">Números Negativos</h4>
+                                <div class="hr ml-6"></div>
+                                <h1 class="text-center txt-color1 ml-6">5 - 8 = -3</h1>
+                                <p>Los números negativos aparecieron dada la necesidad de representar <b>deudas</b>, se identifican añadiendo un símbolo o color diferente a los naturales <b>(-1, -2, -3, -4, -5)</b>.</p>
+                            </div>
+                        </div>
+                        <p class="mt-4">Revisemos sus principales características:</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="row justify-content-center">
+                                    <div class="col-10 bg-color1">
+                                        <p><b>Z</b> = Son la unión de los números naturales positivos, el cero y los números negativos.</p>
+                                        <p class="mb-0"><b>Z</b> = Tiene 3 subconjuntos:</p>
+                                    </div>
+                                    <div class="col-10">
+                                        <div class="list align-items-start mt-4">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Enteros negativos: <b>Z</b><sup><b>-</b></sup></p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-4">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Enteros positivos: <b>Z +</b></p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-4">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Enteros positivos y el cero: <b>Z + U { 0 }</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6"><img class="img-fluid img-a" src="assets/images/pages/img8.png" style="max-width: 60%"></div>
+                        </div>
+                        <p>Por lo tanto, el conjunto de los números enteros, es la unión de los tres subconjuntos mencionados.</p>
+                        <div class="row justify-content-around">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0"><b>Z</b> = Z - U { 0 } U Z +</p>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img9.png" style="max-width: 60%">
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="http://recursostic.educacion.es/descartes/web/materiales_didacticos/EDAD_1eso_numeros_enteros/1quincena3.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Los números enteros</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="numero3">
+                    <div class="header-ecored">
+                        <h2>1.3 Números racionales</h2>
+                    </div>
+                    <div class="card shadow">
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/7RfP8OjRTAg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                        <div class="card-body">
+                            <h3>Bienvenidos</h3>
+                            <p class="mb-4">Los números racionales son aquellos que nos permiten dividir una unidad en partes iguales y tomar de ella lo necesario, un ejemplo muy sencillo es el de una pizza, supongamos que usted pide una pizza de 8 porciones para su familia que son 5 personas, si a cada uno toma una porción, se habrán consumido 5/8 partes y sobran 3/8.</p>
+                            <p class="mb-4">Ya desde el antiguo Egipto se utilizaban estos números, inclusive fue encontrado un papiro en el cual tenían una tabla de representaciones de 2/n en forma de fracciones egipcias para números impares entre 5 y 101, el famoso papiro de Rhind.</p>
+                            <p class="mb-4">Ahora bien, miremos el conjunto de los números racionales que se denotan con la letra (Q).</p>
+                            <div class="row justify-content-around mb-4">
+                                <div class="col-8 bg-color1 text-center">
+                                    <p class="mb-0"><b>Q</b> = {. . ., - ¾, - ½, - ¼ , 0, ¼ , ½, ¾, . . .}</p>
+                                </div>
+                            </div>
+                            <p class="mb-4">El conjunto de los números racionales se creó debido a las limitaciones de cálculo que se presentaban en el conjunto de los números naturales y números enteros. </p>
+                            <p class="mb-4">Pero <b>¿Cómo surgen los números racionales?</b> hagamos un ejemplo, toma un pan y divídelo para tres personas, esto numéricamente sería:</p>
+                            <div class="row justify-content-around mb-4">
+                                <div class="col-8 bg-color1 text-center">
+                                    <p class="mb-0"><b>1 pan / 3 personas</b>. Veamos el ejemplo.</p>
+                                </div>
+                            </div>
+                            <p class="mb-4">Como el resultado no es un número entero, Para solucionar esta dificultad, se creó este conjunto, el cual está formado por todos los números de la forma a/b. Esta fracción en la cual el numerador es a, es un número entero y el denominador b, es un número entero distinto de cero.</p>
+                            <div class="row justify-content-center">
+                                <div class="col-8 my5 bg-color2 py-5 pl-6 pr-4">
+                                    <h4 class="mt-4 text-center txt-color1 ml-6">Números Racionales</h4>
+                                    <div class="hr ml-6"></div>
+                                    <h1 class="text-center txt-color1 ml-6">Q</h1>
+                                    <p>Surgieron de la necesidad de comparar dos cantidades. Se definen como <b>la razón entre dos números enteros</b>. a/b siendo b diferente de 0 e incluye a los números enteros <b>(1/2, -4/3, 5/1, . . .)</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br id="numero4">
+                    <div class="header-ecored">
+                        <h2>1.4 Números irracionales</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Pero aún hay más, conjunto de números irracionales denotado con la letra <b>(Q*)</b> con un asterisco.</p>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0"><b>Q*</b> = { . . ., -π, –√5, -φ, -√2, √2, φ √5, π, . . .}</p>
+                            </div>
+                        </div>
+                        <h3 class="txt-color1 text-center">Conjunto de números decimales infinitos no periódicos</h3>
+                        <p>Este conjunto surgió de la necesidad de reunir a ciertos números que no pertenecen a los conjuntos anteriores; entre ellos se pueden citar a las raíces inexactas, el número Pi, etc.</p>
+                        <p>A él pertenecen todos los números decimales infinitos puros, es decir aquellos números que no pueden transformarse en una fracción. No deben confundirse con los números racionales, porque éstos son números decimales finitos, infinitos periódicos e infinitos semiperiódicos que sí pueden transformarse en una fracción.</p>
+                        <h3>Ejemplo</h3>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p>1,4142135....</p>
+                                <p class="mb-0"> 0,10200300004000005...</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-8 my5 bg-color2 py-5 pl-6 pr-4">
+                                <h4 class="mt-4 text-center txt-color1 ml-6">Números Irracionales</h4>
+                                <div class="hr ml-6"></div>
+                                <h1 class="text-center txt-color1 ml-6">π</h1>
+                                <p>Surgen de la imposibilidad de expresar numéricamente ciertas cantidades como una razón entre dos números enteros. Ejemplo de ellos es la razón entre la circunferencia y el diámetro.</p>
+                            </div>
+                        </div>
+                        <p class="mt-4">Veamos a continuación, unos ejemplos de cómo operan estos números.</p><img class="img-fluid img-a" src="assets/images/pages/img10.png" style="max-width: 80%">
+                        <h3 class="txt-color1 text-center">Representación en la recta numérica de los números irracionales</h3>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="https://matte23.blogspot.com/2016/06/gif-sobre-el-numero-pi.html" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_www.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Número Pi</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="numero5">
+                    <div class="header-ecored">
+                        <h2>1.5 Números reales</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Ya casi finalizamos, miremos el conjunto de números reales denotados por la letra <b>(R)</b>.</p>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0"><b>R</b> = { . . . , - 10, -1, - ¾, - ½, - ¼, 0, ¼ , √2, 5 , . . . } </p>
+                            </div>
+                        </div>
+                        <p>Surgen de la necesidad de reunir los racionales y los irracionales en un solo conjunto. Se denotan por <b>R</b>.</p>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0"><b>R</b> = { Q U Q* }</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-8 my5 bg-color2 py-5 pl-6 pr-4">
+                                <h4 class="mt-4 text-center txt-color1 ml-6">Números Irracionales</h4>
+                                <div class="hr ml-6"></div>
+                                <h1 class="text-center txt-color1 ml-6">R</h1>
+                                <p>Es el conjunto numérico que contiene tanto a los números racionales como a los irracionales. Su aplicación en nuestra civilización es muy variada.</p>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img11.png" style="max-width: 80%">
+                        <h3 class="txt-color1 text-center">Representación en la recta numérica de los números reales</h3>
+                    </div><br id="numero6">
+                    <div class="header-ecored">
+                        <h2>1.6 Números complejos e imaginarios</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow"><img class="img-fluid img-a" src="assets/images/pages/img12.png" style="max-width: 80%">
+                        <p>Para finalizar nuestro recorrido por el mundo de los conjuntos numéricos, existen dos conceptos los cuales hace parte del mundo matemático:</p>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1">
+                                <p>Hablamos de los <b>números imaginarios (i)</b> y <b>complejos (C)</b>, son utilizados frecuentemente en los campos de la física como en la mecánica cuántica, electrónica, telecomunicaciones, ingenierías, entre otras. </p>
+                                <p class="mb-0">De esta manera podemos entender las dimensiones de la teoría de los conjuntos numéricos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-3">
+                <div class="container" id="operaciones">
+                    <div class="header-ecored">
+                        <h1>2. Operaciones aritméticas</h1>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <h3 class="txt-color1">Recordemos</h3>
+                        <p>Desde que el hombre empezó a utilizar los números para cuantificar todo lo relacionado con agricultura, población y demás aspectos relacionados con los números, también empezó a realizar operaciones como añadir y quitar unidades a un conjunto determinado.</p>
+                        <p>A partir de esto surgió la aritmética, la cual es la rama de las matemáticas que relaciona los números y las diferentes operaciones que se pueden realizar con los números (Suma, resta, multiplicación y división) así mismo las propiedades implícitas en dichas operaciones.</p><img class="img-fluid img-a" src="assets/images/pages/img13.png" style="max-width: 80%">
+                        <p>En este tema nos ocuparemos de las cuatro operaciones básicas: suma, resta, multiplicación y división en los diferentes conjuntos numéricos o los números reales. Así mismo también trabajaremos la potenciación y radicación y sus propiedades.</p>
+                        <p>Pero debemos tener en cuenta una regla que para las operaciones combinadas en el conjunto de los números reales es necesario conocer la jerarquía de operaciones.</p>
+                        <p>Pero qué es la jerarquía de operaciones, comencemos enunciando de qué trata:</p>
+                    </div><br id="jerarquia">
+                    <div class="header-ecored">
+                        <h2>2.1 Jerarquía de operaciones</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>La jerarquía de operaciones básicamente es una regla que nos determina cuáles operaciones se deben realizar primero en un determinado ejercicio que contenga varias operaciones como: sumas, restas, multiplicaciones, paréntesis, potencias y raíces. Para esto lo primero que debe realizarse es las operaciones que se encuentren agrupadas en paréntesis, llaves y corchetes, luego deben resolverse las potencias y raíces, posteriormente las divisiones y multiplicaciones en orden (De izquierda a derecha), y por último debemos resolver las sumas y restas.</p><img class="img-fluid img-a" src="assets/images/pages/img14.png" style="max-width: 80%">
+                        <p>Veamos un ejemplo:</p>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0">3 x ( 2 x 4<sup>3 </sup>) / 4</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-around">
+                            <div class="col-8">
+                                <h3 class="txt-color1">Paso 1</h3>
+                                <p>Primero se resuelve lo que está dentro de paréntesis:</p>
+                            </div>
+                            <div class="col-8 bg-color1 text-center mb-4">
+                                <p class="mb-0">( 2 x 4<sup>3 </sup>)</p>
+                            </div>
+                            <div class="col-8">
+                                <p>Dentro del paréntesis se resuelve el exponente 4<sup>3</sup>, que es igual a <b>64</b></p>
+                            </div>
+                            <div class="col-8 bg-color1 text-center mb-4">
+                                <p class="mb-0">2 x 64 = <b>128</b></p>
+                            </div>
+                            <div class="col-8">
+                                <h3 class="txt-color1">Paso 2</h3>
+                                <p>Se resuelve la multiplicación ya que se encuentra primero (a la izquierda).</p>
+                            </div>
+                            <div class="col-8 bg-color1 text-center mb-4">
+                                <p class="mb-0">3 x 128 = <b>384</b></p>
+                            </div>
+                            <div class="col-8">
+                                <h3 class="txt-color1">Paso 3</h3>
+                                <p>Finalmente, se realiza esta división.</p>
+                            </div>
+                            <div class="col-8 bg-color1 text-center mb-4">
+                                <p class="mb-0">384 / 4 = <b>96</b></p>
+                            </div>
+                        </div>
+                    </div><br id="operaciones1">
+                    <div class="header-ecored">
+                        <h2>2.2 Operaciones en números enteros</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <h3 class="txt-color1">Suma y resta de números enteros</h3>
+                        <div class="row mt-5 justify-content-center">
+                            <div class="col-11">
+                                <div class="list align-items-start">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>A</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1"><b>Cuando los números enteros tienen el mismo signo</b>.</p>
+                                        <p>Se suman los valores y se deja el signo que tengan, si son positivos signo positivo y si son negativos signo negativo. Si no se pone nada delante del número se entiende que es +.</p>
+                                        <p><b>Ejemplos números enteros del mismo signo</b></p>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0">( + 5 ) + ( + 4 ) = + 9</p>
+                                            </div>
+                                        </div>
+                                        <p>Es lo mismo que.</p>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0">5 + 4 = 9</p>
+                                            </div>
+                                        </div>
+                                        <p><b>(- 5 ) + ( - 4 ) = - 9</b>. Es lo mismo que.</p>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0">- 5 - 4 = - 9</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>B</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1"><b>Cuando los números enteros tienen distinto signo</b>.</p>
+                                        <p>Se restan sus valores absolutos y se pone el signo del sumando de mayor valor absoluto. (Se restan y se deja el signo del más grande en valor absoluto).</p>
+                                        <p><b>Ejemplos números enteros de distinto signo</b></p>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0"><b>A.</b> ( + 20 ) + ( - 10 ) = 20 - 10 = + 10</p>
+                                            </div>
+                                        </div>
+                                        <p>20 - 10 = 10, el más grande es + 20, se pone + 10</p>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0"><b>B.</b> ( - 8 ) + ( + 3 ) = - 8 + 3 = - 5</p>
+                                            </div>
+                                        </div>
+                                        <p>8 - 3 = 5, el más grande es el - 8, se pone - 5</p>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0"><b>C.</b> ( + 11 ) + ( - 2) = 11 - 2 = + 9</p>
+                                            </div>
+                                        </div>
+                                        <p>11 - 2 = 9, el más grande es el 11, se pone + 9</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="txt-color1 mt-5">Multiplicación y división de números enteros</h3>
+                        <p>Para estas operaciones es importante enunciar las reglas de los signos como se muestra en la siguiente imagen.</p><img class="img-fluid img-a1" src="assets/images/pages/img15.png" style="max-width: 80%">
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-8 bg-color1">
+                                <h3 class="txt-color2 text-center">Reglas de signos</h3>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="txt-color2 text-center">Multiplicar</h4><br>
+                                        <p class="text-center">+ por + = +</p>
+                                        <p class="text-center">- por - = +</p>
+                                        <p class="text-center">+ por - = -</p>
+                                        <p class="text-center">- por + = -</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <h4 class="txt-color2 text-center">Dividir</h4><br>
+                                        <p class="text-center">+ entre + = +</p>
+                                        <p class="text-center">- entre - = +</p>
+                                        <p class="text-center">+ entre - = -</p>
+                                        <p class="text-center">- entre + = -</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-center">
+                            <div class="col-11">
+                                <div class="list align-items-start">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>A</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1"><b>Para multiplicar dos números enteros</b>.</p>
+                                        <p>Se multiplican sus valores absolutos y se aplica la regla de los signos. Cuando van dos signos seguidos hay que separarlos utilizando paréntesis.</p>
+                                        <p><b>Ejemplo</b></p>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0"><b>A.</b> ( + 8 ) * ( + 3 ) = + 24</p>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0"><b>B.</b> ( - 3 ) * ( - 2 ) = + 6</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>B</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1"><b>Para dividir dos números enteros</b>.</p>
+                                        <p>Se divide el dividendo entre el divisor y se aplica la regla de los signos. Una división es exacta cuando el resto es 0.</p>
+                                        <p><b>Ejemplo</b></p>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0"><b>A.</b> ( - 15 ) ÷ ( 15 ) = - 1</p>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-around mb-4">
+                                            <div class="col-8 bg-color1 text-center">
+                                                <p class="mb-0"><b>B.</b> 8 ÷ 4 = + 2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Ahora realicemos un problema en el que podamos utilizar la información presentada.</p>
+                        <div class="row rounded bg-color1 align-items-center">
+                            <div class="col">
+                                <p>En un depósito hay 1200 litros de leche. Por la parte superior un tubo vierte en el depósito 25 litros por minuto, y por la parte inferior por otro tubo salen 35 litros por minuto. <b>¿Cuántos litros de leche habrá en el depósito después de 20 minutos de funcionamiento?</b></p>
+                            </div>
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img16.png" style="max-width: 80%"></div>
+                        </div>
+                        <div class="row justify-content-around mt-5">
+                            <div class="col-5 text-center"><img class="img-fluid img-a1" src="assets/images/pages/img17.png" style="max-width: 50%">
+                                <p>1000 litros de leche</p>
+                            </div>
+                            <div class="col-5 text-center"><img class="img-fluid img-a1" src="assets/images/pages/img18.png" style="max-width: 50%">
+                                <p>850 Litros de leche</p>
+                            </div>
+                        </div>
+                        <h3 class="txt-color2 mt-5">Respuesta</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <h3 class="txt-color1 mt-4">Paso 1</h3>
+                                <p>Lo primero que debemos realizar es pasar el problema a términos aritméticos para empezar a resolverlo y sacamos los datos cuantitativos.</p>
+                                <h3 class="txt-color1 mt-4">Paso 2</h3>
+                                <p>1200 litros es la cantidad inicial de leche.</p>
+                                <h3 class="txt-color1 mt-4">Paso 3</h3>
+                                <p>Luego debemos calcular la cantidad de leche que ingresa al depósito en los 20 minutos de funcionamiento: 25 litros que ingresan en un minuto lo multiplicamos por la cantidad de minutos que son veinte:</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">( 25 litros * 20 minutos )</p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color1 mt-4">Paso 4</h3>
+                                <p>Así mismo calculamos la cantidad de leche que sale del depósito en los mismo 20 minutos: 35 litros que salen por minuto lo multiplicamos por la cantidad de minutos que son veinte:</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">( 35 litros * 20 minutos )</p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color1 mt-4">Paso 5</h3>
+                                <p>Ahora calculamos la cantidad total de leche que queda en el depósito después de 20 minutos.</p>
+                                <p>A la leche que hay en el depósito, le sumamos la leche que ingresa y le restamos la leche que sale y quedaría una expresión aritmética de esta forma:</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">1200 litros + ( 25 litros * 20 minutos ) – ( 35 litros * 20 minutos )</p>
+                                    </div>
+                                </div>
+                                <p>Resolvemos los paréntesis y nos queda.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">1200 litros + 500 litros – 700 litros = 1000 litros</p>
+                                    </div>
+                                </div>
+                                <p>Luego realizamos las sumas y restas y nos da como resultado:</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0"><b>1000 litros quedan en el depósito</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4">
+                                <h1 class="text-right mb-0">Respuesta Correcta</h1>
+                            </div>
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img17.png" style="max-width: 50%"></div>
+                            <div class="col-4">
+                                <p class="mb-0">1000 litros de leche</p>
+                            </div>
+                        </div>
+                    </div><br id="operaciones2">
+                    <div class="header-ecored">
+                        <h2>2.3 Operaciones en los números racionales</h2>
+                    </div>
+                    <div class="jumbotron shadow bg-white">
+                        <p>Recordemos que los números racionales también pueden ser nombrados como fracciones. Y que una fracción es dividir cualquier cantidad en cantidades iguales y tomar algunas de esas partes.</p><img class="img-fluid img-a" src="assets/images/pages/img19.png" style="max-width: 100%">
+                        <p>Empecemos a realizar operaciones de suma y resta de fracciones homogéneas. Son aquellas que tienen igual denominador. </p>
+                        <p>Para sumar o restar números racionales homogéneos se coloca el mismo denominador y se suman o restan los numeradores así:</p><img class="img-fluid img-a" src="assets/images/pages/img20.png" style="max-width: 80%">
+                        <p>Ahora miremos el proceso que realizamos cuando los denominadores son distintos, lo que llamamos <b>operaciones con fracciones heterogéneas</b>.</p>
+                        <p>Para adicionar o sustraer números racionales heterogéneos, se multiplican los denominadores entre sí y ese será el denominador de la respuesta, luego se multiplica el numerador de la primera fracción por el denominador de la segunda. Se coloca el mismo signo (de operación) y se procede a multiplicar el numerador de la segunda fracción por el denominador de la primera fracción. En cada caso se debe simplificar la respuesta si es posible.</p>
+                        <h3 class="txt-color2 mt-5">Ejemplo</h3>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0">3 / 4 + 5 / 7</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <h3 class="txt-color1 mt-4">Paso 1</h3>
+                                <p>Se multiplican los denominadores.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">4 * 7 = <b>28</b></p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color1 mt-4">Paso 2</h3>
+                                <p>Se multiplican el numerador de la primera fracción por el denominador de la segunda.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">3 * 7 = <b>21</b></p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color1 mt-4">Paso 3</h3>
+                                <p>Se coloca el signo más. ( + )</p>
+                                <h3 class="txt-color1 mt-4">Paso 4</h3>
+                                <p>Se multiplica el numerador de la segunda fracción por el denominador de la primera.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">4 * 5 = <b>20</b></p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color1 mt-4">Paso 5</h3>
+                                <p>Por último, sumamos los dos números que nos quedan en el en la parte de arriba.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">21 + 20 = 41</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img21.png" style="max-width: 80%">
+                        <p>Ahora veamos en que se puede aplicar la suma y resta de fracciones en un caso cotidiano.</p>
+                        <div class="row rounded bg-color1 align-items-center">
+                            <div class="col">
+                                <p>Un campesino siembra <b>2 / 7</b> de su finca con papa y <b>1 / 5</b> con tomate. Responde:</p>
+                            </div>
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img22.png" style="max-width: 80%"></div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <p><b>A.</b> ¿Qué fracción de su finca tiene sembrada?</p>
+                                <p><b>B.</b> ¿Qué fracción de su finca está sin sembrar?</p>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img23.png" style="max-width: 80%">
+                        <p>Para el primer interrogante debemos sumar las dos porciones de finca que están sembradas.</p><img class="img-fluid img-a" src="assets/images/pages/img24.png" style="max-width: 80%">
+                        <p>La fracción de finca que se encuentra sembrada con papa y tomate es <b>17 / 35</b>.</p>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4">
+                                <h1 class="text-right mb-0">Respuesta Correcta</h1>
+                            </div>
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img25.png" style="max-width: 50%"></div>
+                            <div class="col-4">
+                                <p class="mb-0">17 / 35</p>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <p>Para dar respuesta al segundo interrogante procedemos de la siguiente manera.</p>
+                        <div class="row rounded bg-color1 align-items-center">
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img26.png" style="max-width: 80%"></div>
+                            <div class="col">
+                                <p>La fracción que representa el total de la finca puede expresarse como <b>35 / 35</b> que es igual a <b>1</b>, ya que todo el terreno expresado en fracciones debe ser igual a 1 porque sería el terreno en general.</p>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img27.png" style="max-width: 80%">
+                        <p>Ahora procedemos a realizar la resta así:</p><img class="img-fluid img-a" src="assets/images/pages/img28.png" style="max-width: 80%">
+                        <p>O bien también se puede realizar de la siguiente forma:</p><img class="img-fluid img-a" src="assets/images/pages/img29.png" style="max-width: 80%">
+                        <p>Recordemos que es una resta de fracciones homogéneas por lo tanto se pone en el resultado el mismo denominador y se operan los numeradores.</p>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4">
+                                <h1 class="text-right mb-0">Respuesta Correcta</h1>
+                            </div>
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img25.png" style="max-width: 50%"></div>
+                            <div class="col-4">
+                                <p class="mb-0">18 / 35</p>
+                            </div>
+                        </div>
+                    </div><br id="multiplicaciones">
+                    <div class="header-ecored">
+                        <h2>2.4 Multiplicación de números racionales (fracciones)</h2>
+                    </div>
+                    <div class="jumbotron shadow bg-white">
+                        <p>El producto de dos números racionales es otro número racional y se realiza multiplicando los numeradores entre sí y denominadores entre sí.</p>
+                        <p>Pero mejor veamos un ejemplo:</p><img class="img-fluid img-a" src="assets/images/pages/img30.png" style="max-width: 80%">
+                        <p>Para evidenciar en que se aplica la multiplicación de fracciones continuemos con la situación presentada anteriormente del campesino y sus cultivos.</p>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0">Teniendo en cuenta que la finca del campesino cuenta con <b>1000 m</b><sup><b>2</b> </sup>y la fracción de ese terreno sembrada es de <b>17 / 35</b>.</p>
+                            </div>
+                        </div>
+                        <p><b>A</b>. ¿Cuánto mide en metros cuadrados la parte del terreno que se encuentra sembrada?</p>
+                        <p><b>B</b>. Teniendo en cuenta que 2 / 7 se encuentra sembrada con papa, ¿Cuál es el área que se encuentra con papa?</p>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <p>Para encontrar la medida o el área del terreno sembrado multiplicamos el total de metros cuadrados (1000) por la fracción que se encuentre sembrada así:</p>
+                                <p><b>Le ponemos el 1 de denominador al 1000 para que quede expresado como fracción</b>.</p><img class="img-fluid img-a" src="assets/images/pages/img31.png" style="max-width: 80%">
+                                <h3 class="txt-color1">Simplificamos:</h3>
+                                <p>Recordemos que simplificar es dividir tanto el numerador como el denominador por el mismo número primo. En este caso el <b>17000</b> es divisible por <b>2</b> y por <b>5</b>, mientras que el <b>35</b> es divisible por <b>5</b> y por <b>7</b>. Así que dividimos ambos números por <b>5</b> y nos queda:</p><img class="img-fluid img-a" src="assets/images/pages/img32.png" style="max-width: 80%">
+                                <p>Por último, dividimos la fracción y nos da como resultados que la cantidad de terreno que se encuentra sembrado es de <b>485.71 m</b><sup><b>2</b></sup></p>
+                                <p>La fracción quedaría.</p><img class="img-fluid img-a" src="assets/images/pages/img33.png" style="max-width: 80%">
+                            </div>
+                        </div>
+                    </div><br id="division">
+                    <div class="header-ecored">
+                        <h2>2.5 División de fracciones</h2>
+                    </div>
+                    <div class="jumbotron shadow bg-white">
+                        <p>Para dividir dos números racionales se multiplica el numerador del primer número racional con el denominador del segundo número racional, y el numerador del segundo número con el denominador del primero. (Se multiplica en cruz) así:</p><img class="img-fluid img-a" src="assets/images/pages/img34.png" style="max-width: 80%">
+                        <p>Para realizar la división también se puede realizar la ley de extremos y medios.</p><img class="img-fluid img-a" src="assets/images/pages/img35.png" style="max-width: 80%">
+                        <div class="hr"></div>
+                        <p>Ahora miremos una aplicación cotidiana.</p>
+                        <div class="row rounded bg-color1 align-items-center">
+                            <div class="col">
+                                <p class="mb-0">Andrea compró un queso que pesa <b>3 / 4</b> de kilo, si lo partió en porciones de <b>1 / 8</b> de kilo, <b>¿Cuántas porciones salieron de la totalidad del queso?</b>.</p>
+                            </div>
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img36.png" style="max-width: 60%"></div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <p class="mt-4">Lo que debemos hacer es dividir la cantidad de queso que hay entre 1/8 que es la porción que va a quedar.</p><img class="img-fluid img-a" src="assets/images/pages/img37.png" style="max-width: 60%">
+                                <p>La cantidad de porciones de <b>1 / 8</b> que salen es de <b>6</b>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow"><img class="img-fluid" src="assets/images/pages/img38.png" style="max-width: 100%">
+                        <div class="card-body">
+                            <h3 class="txt-color1">¿Sabía qué?</h3>
+                            <p>La pintura denominada el hombre de Vitruvio busca representar por medio de la simetría arquitectónica cómo sería el hombre perfecto (físicamente). </p>
+                            <p class="mt-3">Algunas de las conclusiones a las que llegó matemáticamente el creador Marco Vitruvio fueron las proporciones presentes en el cuerpo humano:</p>
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1">Desde el inicio de la barbilla hasta la parte más arriba de la frente mide <b>1 / 10</b> del total de la altura.</p>
+                                        </div>
+                                    </div>
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1">La cabeza, desde la coronilla hasta el final de la barbilla mide <b>1 / 8</b> en relación con la altura de todo el cuerpo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1">Iniciando desde el cuero cabelludo hasta el final del esternón equivale a <b>1 / 6</b> del total de la altura del cuerpo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1">Desde la mitad del pecho hasta la coronilla equivale a <b>1 / 4</b> del total del cuerpo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1">La longitud de la frente mide <b>1 / 5</b> en relación con todo el rostro.</p>
+                                        </div>
+                                    </div>
+                                    <div class="list align-items-start mt-4">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p class="mt-1">La longitud del pie equivale al <b>1 / 6</b> del total del cuerpo. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6"><img class="img-fluid img-a" src="assets/images/pages/img39.png" style="max-width: 60%"></div>
+                            </div>
+                        </div>
+                    </div><br id="potencia">
+                    <div class="header-ecored">
+                        <h2>2.6 Potencias y raíces</h2>
+                    </div>
+                    <div class="jumbotron shadow bg-white">
+                        <h3 class="txt-color1">Potenciación</h3>
+                        <p>La potenciación es la multiplicación de un número (n) veces, el mismo número entero o racional, en el la base es el número racional que multiplicaremos y n (Denominado exponente) es el número de veces que multiplicamos la base.</p>
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0">a<sup>n </sup>= a . a . a . a . n veces</p>
+                            </div>
+                        </div>
+                        <p>Para ello podemos comprender algunas de las siguientes propiedades de las potencias.</p>
+                        <div class="row justify-content-center">
+                            <div class="col-10">
+                                <table class="table table-striped m-0">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th class="table1"><i><b>Propiedad</b></i></th>
+                                            <th class="table1"><i><b>Exposición</b></i></th>
+                                            <th class="table1"><i><b>Ejemplo</b></i></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="table2"><b>Potencia de base cero</b>.</td>
+                                            <td class="table2">Cualquier potencia de base 0 es igual a 0. 0<sup>m </sup>= 0</td>
+                                            <td class="table2">0<sup>4 </sup>= 0</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table3"><b>Potencia de exponente cero</b>.</td>
+                                            <td class="table3">Cualquier potencia de exponente 0 es igual a 1. X<sup>0 </sup>= 1</td>
+                                            <td class="table3">5<sup>0 </sup>= 1</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table2"><b>Potencia de exponente 1</b>.</td>
+                                            <td class="table2">Cualquier potencia de exponente 1 es el mismo número. X<sup>1 </sup>= X</td>
+                                            <td class="table2">7<sup>1 </sup>= 7</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table3"><b>Producto de potencias de la misma base</b>.</td>
+                                            <td class="table3">El producto de potencias de la misma base es la misma base y el exponente la suma de los exponentes. X<sup>m </sup>+ X<sup>n </sup>= X<sup>m + n</sup></td>
+                                            <td class="table3">2<sup>4 </sup>* 2<sup>6 </sup>= 2<sup>4 + 6 </sup>= 2<sup>10</sup></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table2"><b>Cociente de potencias de la misma base</b>.</td>
+                                            <td class="table2">El producto de potencias de la misma base es la misma base y el exponente de la suma de los exponentes. X<sup>m </sup>/ X<sup>n </sup>= X<sup>m - n</sup></td>
+                                            <td class="table2">3<sup>5 </sup>/ 3<sup>2 </sup>= 3<sup>5 - 2 </sup>= 3<sup>3</sup></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table3"><b>Potencia de una potencia</b>.</td>
+                                            <td class="table3">La potencia de una potencia es la misma base y el exponente el producto de los exponentes. ( X<sup>m </sup>)<sup>n </sup>= X<sup>m * n</sup></td>
+                                            <td class="table3">( 6<sup>2 </sup>)<sup>4 </sup>= 6<sup>2 * 4 </sup>= 6<sup>8</sup></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table2"><b>Producto de potencias con el mismo exponente</b>.</td>
+                                            <td class="table2">El producto de potencias con el mismo exponente es una potencia con el mismo exponente y como base el producto de las bases. X<sup>m </sup>* Y<sup>m </sup>= ( X * Y)<sup>m</sup></td>
+                                            <td class="table2">2<sup>3 </sup>* 4<sup>3 </sup>= ( 2 * 4 )<sup>3</sup></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table3"><b>Cociente de potencias con el mismo exponente</b>.</td>
+                                            <td class="table3">El cociente de potencias es una potencia con el mismo exponente y con base el cociente de las bases. X<sup>m </sup>/ Y<sup>m </sup>= ( X / Y )<sup>m</sup></td>
+                                            <td class="table3">6<sup>3 </sup>/ 2<sup>3 </sup>= ( 6 / 2 )<sup>3 </sup>= 3<sup>3</sup></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table2"><b>Potencia de exponente negativo</b>.</td>
+                                            <td class="table2">La potencia de exponente negativo es igual al inverso de la potencia, con exponente positivo. X<sup>-m </sup>= 1 / X<sup>m</sup></td>
+                                            <td class="table2">4<sup>-2 </sup>/ 2 = 1 / 4<sup>2</sup></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table3"><b>Potencia de exponente racional</b>.</td>
+                                            <td class="table3">La potencia de exponente racional es igual a una raíz, donde el denominador es el índice de la raíz y el numerador el exponente del radicando. X<sup>m / n</sup>= <sup>n</sup>√ X<sup>m</sup></td>
+                                            <td class="table3">7<sup>4 / 3 </sup>= <sup>3</sup>√ 7<sup>4</sup></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <h3 class="txt-color1 mt-6">Radicación</h3><img class="img-fluid img-a" src="assets/images/pages/img40.png" style="max-width: 80%">
+                        <p>La radicación es conocida como la operación contraria a la potenciación en donde se conoce el índice de la raíz y el radicando de este modo se puede encontrar un número que multiplicado el número de veces que enuncie el índice nos de como resultado el radicando.</p>
+                        <h3 class="txt-color2 text-center">Propiedades de la potencia</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <table class="table table-striped m-0">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th class="table1"><i><b>Operación</b></i></th>
+                                            <th class="table1"><i><b>Ejemplo</b></i></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="table2">Producto: <sup>n</sup>√ a * <sup>n</sup>√ b = <sup>n</sup>√ a * b</td>
+                                            <td class="table2"> <sup>3</sup>√ 4 * <sup>3</sup>√ 6 = <sup>3</sup>√ 24</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table3">Cociente: <sup>n</sup>√ a : <sup>n</sup>√ b = <sup>n</sup>√ a / b</td>
+                                            <td class="table3"><sup>3</sup>√ 4 : <sup>3</sup>√ 6 = <sup>3</sup>√ 4 / 6</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table2">Potencia: ( <sup>n</sup>√ a )<sup>m </sup>= <sup>n</sup>√ a<sup>m</sup></td>
+                                            <td class="table2">( <sup>5</sup>√ 4 )<sup>6 </sup>= <sup>5</sup>√ 4<sup>6</sup></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table3">Simplificar: ( <sup>n</sup>√ a<sup>n</sup>) = a</td>
+                                            <td class="table3">( <sup>3</sup>√ 2<sup>3</sup>) = 2</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table2">Raíz de raíz: ( <sup>p</sup>√ <sup>n</sup>√ a ) = <sup>n * p </sup>√ a</td>
+                                            <td class="table2">( <sup>4</sup>√ <sup>2</sup>√ 3 ) = <sup>8 </sup>√ 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table3">Introducir: ( a <sup>n</sup>√ a<sup>n</sup>) = <sup>n</sup>√ a<sup>n </sup>* a = <sup>n</sup>√ a<sup>n + 1</sup></td>
+                                            <td class="table3">( 4 <sup>3</sup>√ 4 ) = <sup>3</sup>√ 4<sup>3 </sup>* 4 = <sup>3</sup>√ 4<sup>4</sup></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div><br id="operaciones3">
+                    <div class="header-ecored">
+                        <h2>2.7 Operaciones en los números irracionales</h2>
+                    </div>
+                    <div class="card shadow"><img class="img-fluid" src="assets/images/pages/img41.png" style="max-width: 100%">
+                        <div class="card-body">
+                            <p>Las operaciones con números irracionales tienen que ver con algunas reglas o procedimientos que se realizan para reducir una expresión aritmética que contenga números irracionales y no tener que acudir a una calculadora.</p>
+                            <div class="hr"></div>
+                            <h3 class="txt-color1 mt-4">Suma y resta</h3>
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <p>Para la suma de y resta de expresiones con números irracionales debemos identificar cuáles son los términos semejantes bien sea el mismo número irracional como pi, o que la raíz tenga el mismo radicando (Número dentro de la raíz). Si se tienen términos semejantes simplemente se pueden juntar las cantidades y poner el mismo término semejante como pi + 2 pi = 3pi. Pero si por el contrario no son términos semejantes la expresión se deja expresada. Miremos algunos ejemplos con operaciones en los números irracionales.</p>
+                                </div>
+                                <div class="col-12 col-md-6"><img class="img-fluid img-a1" src="assets/images/pages/img42.png" style="max-width: 40%"></div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-11">
+                                    <h3 class="txt-color2 mt-4">Ejemplo</h3>
+                                    <div class="row justify-content-around mb-4">
+                                        <div class="col-8 bg-color1 text-center">
+                                            <p class="mb-0">√a + 2√a + 3√a - 4√a = 2√a</p>
+                                        </div>
+                                    </div>
+                                    <p>Como todas las raíces son semejantes se operan los números que las acompañan y se pone la misma raíz y radicando.</p>
+                                    <div class="row justify-content-around mb-4">
+                                        <div class="col-8 bg-color1 text-center">
+                                            <p class="mb-0">√2 + 2√3 + 3√2 - 4√3 + 3√2 = ¿?</p>
+                                        </div>
+                                    </div>
+                                    <p>En este caso existen raíces semejantes de 2 y 3, entonces operamos las raíces semejantes de cada una así:</p>
+                                    <div class="row justify-content-around mb-4">
+                                        <div class="col-8 bg-color1 text-center">
+                                            <p>√2 + 3√2 + 3√2 = 7√2</p>
+                                            <p class="mb-0">2√3 - 4√3 = -2√3</p>
+                                        </div>
+                                    </div>
+                                    <p>Por lo tanto, el resultado queda expresado de la siguiente forma ya que son números irracionales y para la suma y la resta no aplica la propiedad distributiva.</p>
+                                    <div class="row justify-content-around mb-4">
+                                        <div class="col-8 bg-color1 text-center">
+                                            <p class="mb-0">7√2 - 2√3</p>
+                                        </div>
+                                    </div>
+                                    <div class="row rounded bg-color1 align-items-center">
+                                        <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img43.png" style="max-width: 60%"></div>
+                                        <div class="col">
+                                            <h3 class="txt-color2">Nota</h3>
+                                            <p class="mb-0">Para efectuar sumas y/o restas de radicales tienen que ser siempre semejantes.</p>
+                                        </div>
+                                    </div>
+                                    <p class="py-4">Por lo general cuando son radicales de números muy grandes se pueden descomponer en factores primos.</p>
+                                    <div class="row justify-content-around mb-4">
+                                        <div class="col-8 bg-color1 text-center">
+                                            <p>√28 = √2<sup>2 </sup>7<sup>1 </sup>= 2√7</p>
+                                            <p class="mb-0">√63 = √3<sup>3 </sup>7<sup>1 </sup>= 3√7</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="txt-color1 mt-4 text-center">Suma y resta de radicales</h3><img class="img-fluid img-a" src="assets/images/pages/img44.png" style="max-width: 60%">
+                            <div class="hr"></div>
+                            <h3 class="txt-color1 mt-4">Multiplicación</h3>
+                            <p>En el producto y la división si se da la propiedad distributiva. La raíz de un producto es igual al producto de las raíces y viceversa. Lo mismo para el cociente.</p>
+                            <div class="row justify-content-center">
+                                <div class="col-11">
+                                    <h3 class="txt-color2 mt-4">Ejemplo</h3><img class="img-fluid img-a" src="assets/images/pages/img45.png" style="max-width: 80%">
+                                    <p>En este caso podemos multiplicar todos números enteros que acompañen las raíces (1, 3 y 2) y luego como las raíces tienen el mismo índice (cúbico) podemos multiplicar todos los radicandos entre sí y dejarlos dentro de la raíz así:</p><img class="img-fluid img-a" src="assets/images/pages/img46.png" style="max-width: 80%">
+                                    <p class="mb-4">Por lo tanto, el resultado es igual a 6 <sup>3</sup>√8.</p>
+                                    <p>Como la <sup>3</sup>√8 = 2 porque es un número que multiplicado 3 veces da como resultado 8.</p>
+                                    <div class="row justify-content-around mb-4">
+                                        <div class="col-8 bg-color1 text-center">
+                                            <p class="mb-0">2 x 2 x 2 = 8</p>
+                                        </div>
+                                    </div>
+                                    <p>Entonces el resultado quedaría.</p>
+                                    <div class="row justify-content-around mb-4">
+                                        <div class="col-8 bg-color1 text-center">
+                                            <p class="mb-0">6 x 2 = 12</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hr"></div>
+                            <h3 class="txt-color1 mt-4">División</h3>
+                            <p>Por último, enunciamos como sería la división de números irracionales.</p><img class="img-fluid img-a" src="assets/images/pages/img47.png" style="max-width: 80%">
+                            <p>En este caso como 24 no tiene raíz exacta y 6 tampoco (Son números irracionales) podemos aplicar la propiedad distributiva con respecto a la división de esta forma.</p><img class="img-fluid img-a" src="assets/images/pages/img48.png" style="max-width: 80%">
+                            <p>El resultado queda igual a 2 porque a cuatro si se le puede sacar raíz cuadrada exacta número racional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-4">
+                <div class="container" id="razones">
+                    <div class="header-ecored">
+                        <h1>3. Razones y proporciones</h1>
+                    </div>
+                    <div class="jumbotron bg-white shadow"><img class="img-fluid img-a" src="assets/images/pages/img49.png" style="max-width: 80%">
+                        <p>Hoy se analizará el mundo de la proporcionalidad, para ello quiero plantearte la siguiente pregunta. ¿Cree que la proporcionalidad se aplica en su diario vivir?</p>
+                        <p>Al finalizar esta sesión encontrará varias respuestas con aplicaciones, <b>características y métodos</b> que le ayudarán a desempeñarse de una manera más fluida y dinámica con un pensamiento lógico-matemático.</p><img class="img-fluid img-a" src="assets/images/pages/img50.png" style="max-width: 80%">
+                        <p>Para el SENA es importante el desarrollo de las competencias en el ámbito educativo, laboral y personal.</p>
+                    </div><br id="proporcionalidad">
+                    <div class="header-ecored">
+                        <h2>3.1 Proporcionalidad</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Para iniciar, definamos la razón como una fracción entre dos términos que se usan para comparar cantidades.</p>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <h2 class="txt-color2 mt-4">Ejemplo</h2>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">¿Cuál es la razón entre la edad de Juan que tiene 12 años y Ana que tiene 23 años?</p>
+                                    </div>
+                                </div>
+                                <p>Esto es, razón.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">12 / 23</p>
+                                    </div>
+                                </div>
+                                <p>Luego la razón de años entre Juan y Ana es <b>(0,52)</b>.</p><img class="img-fluid img-a" src="assets/images/pages/img51.png" style="max-width: 80%">
+                                <p>Por lo tanto, en matemáticas usamos la razón para la comparación de dos cantidades y se calcula a partir de una división como ya lo vimos; ahora la proporcionalidad es la igualdad entre dos razones que se relacionan entre sí o con un todo, esta se puede analizar desde la regla de tres y porcentajes.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0"><b>Razón</b> = 12 / 23</p>
+                                    </div>
+                                </div>
+                                <p>Estos temas los abordaremos el día de hoy con ejemplos prácticos, donde encontraremos la relación conceptual y su aplicación a situaciones de la vida diaria.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">12 / 23 = 21 / 35</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br id="porcentaje">
+                    <div class="header-ecored">
+                        <h2>3.2 Porcentaje</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="list align-items-start">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>01</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Iniciemos con <b>porcentaje</b>.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>02</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Siempre que aparezca este símbolo %, se tiene que hacer <b>regla de tres</b>, para ello siempre van a existir dos datos.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>03</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Uno de ellos, es el total de determinada cantidad, la cual siempre equivale al <b>100%</b>.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>04</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">El otro dato, corresponde a un <b>porcentaje</b> o un <b>valor numérico</b></p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>05</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Revisemos los siguientes casos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4"><img class="img-fluid img-a1" src="assets/images/pages/img52.png" style="max-width: 50%"></div>
+                        </div>
+                        <div class="hr"></div>
+                        <h2 class="txt-color1"><b>Caso 1</b>. Cuando me piden calcular el % de cierta cantidad</h2>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <h3 class="txt-color2 mt-4">Ejemplo</h3>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">Cuánto es el 12% de 400. <b>Recuerde la pista 1</b>.</p>
+                                    </div>
+                                </div>
+                                <div class="row rounded bg-color1 align-items-center mx-0">
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img43.png" style="max-width: 60%"></div>
+                                    <div class="col">
+                                        <h3 class="txt-color2">Pista 1</h3>
+                                        <p class="mb-0">Cuando el total tiene dos ceros y me dan un %. Siempre al total le quitamos los dos ceros y se multiplica por el %.</p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color2 mt-4">Procedimiento</h3>
+                                <p>A 400 le quitamos los dos ceros y nos queda 4 y lo multiplicamos por el % que es 12, entonces quedaría <b>4 x 12 = 48</b>, por lo tanto el <b>12% de 400 es 48</b>.</p>
+                                <p>Veamos otro ejemplo, pero esta vez lo haremos un poco más difícil.</p>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p>Calcula mentalmente el 92% de 300, el 48% de 200, 78% de 100. </p>
+                                        <p class="mb-0"><b>Recuerda la pista 1</b>.</p>
+                                    </div>
+                                </div>
+                                <p>Ahora te estás preguntando, ¿Qué pasaría si el total no tiene dos ceros? <b>Recuerda la pista 2</b>.</p>
+                                <div class="row rounded bg-color1 align-items-center mx-0 mt-4">
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img43.png" style="max-width: 60%"></div>
+                                    <div class="col">
+                                        <h3 class="txt-color2">Pista 2</h3>
+                                        <p class="mb-0">Cuando el total no tiene dos ceros y me dan el total y un % tomamos el total y se multiplica por el % luego nos ubicamos en el último número y damos dos pasos a la izquierda y ponemos la coma.</p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color2 mt-4">Ejemplo</h3>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">Cuánto es el <b>37% de 6473</b></p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color2 mt-4">Resultado</h3>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">37 x 6473 = <b>2395,01</b></p>
+                                    </div>
+                                </div>
+                                <p><b>Veamos un caso especial</b>: cuando el total y el porcentaje es un valor decimal.</p>
+                                <h3 class="txt-color2 mt-4">Ejemplo</h3>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">Cuánto es <b>63% de 345,32</b></p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color2 mt-4">Resultado</h3>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0"> 63% x 345,32 = <b>21755,16</b></p>
+                                    </div>
+                                </div>
+                                <div class="row rounded bg-color1 align-items-center mx-0 mt-4">
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img43.png" style="max-width: 60%"></div>
+                                    <div class="col">
+                                        <h3 class="txt-color2">Pista 3</h3>
+                                        <p class="mb-0">Se multiplica el total por el porcentaje nos ubicamos en la coma y damos dos pasos a la izquierda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <h2 class="txt-color1"><b>Caso 2</b>. Cuando me piden el total</h2>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <p>Tengamos en cuenta la siguiente característica, para el ejercicio siempre se dan un valor numérico y su respectivo “equivalente” porcentaje. Visualicemos un ejemplo real.</p>
+                                <div class="row rounded bg-color1 align-items-center mx-0">
+                                    <div class="col">
+                                        <p class="mb-0">Si en una empresa de zapatos le realizan la devolución de una mercancía defectuosa 78 zapatos que equivale al 13% de la producción. <b>¿Cuánto fue la producción total de zapatos?</b></p>
+                                    </div>
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img54.png" style="max-width: 60%"></div>
+                                </div>
+                                <div class="row rounded bg-color1 align-items-center mx-0 mt-4">
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img43.png" style="max-width: 60%"></div>
+                                    <div class="col">
+                                        <h3 class="txt-color2">Pista 4</h3>
+                                        <p class="mb-0">Al valor numérico se multiplica por 100 “si el valor numérico es entero se le agrega dos ceros al total” y se divide por el %.</p>
+                                    </div>
+                                </div>
+                                <p class="mt-4">Al total le agregamos dos(2) ceros, queda entonces <b>7800</b>, luego lo dividimos en el %, por tanto tendremos <b>7800 / 13 = 600</b>, quiere decir, la producción de zapatos fueron <b>600</b>.</p>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <h2 class="txt-color1"><b>Caso 3</b>. Cuando me piden el %</h2>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <p>Identifiquemos las siguientes características para este caso:</p>
+                                <div class="row rounded bg-color1 align-items-center mx-0">
+                                    <div class="col">
+                                        <p class="mb-0">Recuerda que siempre me dan dos valores numéricos uno es el total y el otro es una parte del total, solo que ahora tengo otra característica es, el enunciado nunca tiene un valor de %.</p>
+                                    </div>
+                                </div>
+                                <p>Veamos esto con un ejemplo:</p>
+                                <div class="row rounded bg-color1 align-items-center mx-0">
+                                    <div class="col">
+                                        <p class="mb-0">Una impulsadora gana un bono si cumple con la meta de ventas de jabón, la cual es de 2´456.456; pero ella cumple con 2´735.654. <b>¿Qué porcentaje de cumplimiento logro?</b></p>
+                                    </div>
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img55.png" style="max-width: 60%"></div>
+                                </div>
+                                <div class="row rounded bg-color1 align-items-center mx-0 mt-4">
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img43.png" style="max-width: 60%"></div>
+                                    <div class="col">
+                                        <h3 class="txt-color2">Pista 5</h3>
+                                        <p class="mb-0">Para la solución se toma el valor que no es el total, a este valor se multiplica por 100 “si el valor numérico es entero se le agrega dos ceros” y se divide por el total.</p>
+                                    </div>
+                                </div>
+                                <h3 class="txt-color2 mt-4">Resultado</h3>
+                                <div class="row justify-content-around mb-4">
+                                    <div class="col-8 bg-color1 text-center">
+                                        <p class="mb-0">273565400 / 2456456 = <b>111,36% de cumplimiento</b>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br id="regla">
+                    <div class="header-ecored">
+                        <h2>3.3 Regla de tres</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <div class="row justify-content-center">
+                            <div class="col-12 bg-color1 p-4 rounded">
+                                <h3 class="txt-color1">(Regla de tres simple directa)</h3>
+                                <p>La proporcionalidad directa se da entre dos magnitudes que incrementan o disminuyen según la misma razón de proporcionalidad; esto es, si una aumenta a razón de 2 unidades, la otra magnitud también aumentará a razón de 2 unidades.</p>
+                                <p>Para resolver un problema de proporcionalidad directa se pueden utilizar varios métodos, pero uno de los más útiles es la regla de tres.</p>
+                                <p>La regla de tres es un arreglo matemático que me permite conocer el valor de una incógnita partiendo de 3 valores conocidos.</p>
+                                <p>Este arreglo matemático es muy útil si se desea resolver problemas sobre repartos, porcentajes, incrementos, descuentos o intereses bancarios.</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">Ya hemos analizado los casos en el uso de los porcentajes, esto funciona cuando me dan dos datos y me piden un tercero, pero ahora, <b>¿Qué pasa cuando tenemos tres datos y me piden un cuarto?</b></p>
+                        <p>Aquí podemos usar la <b>regla de tres</b>, la cual se caracteriza por tener los siguientes aspectos:</p>
+                        <div class="row justify-content-center">
+                            <div class="col-8 bg-color1 p-4 rounded">
+                                <div class="list align-items-start">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>01</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">No tener un <b>valor total</b>.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>02</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Siempre van a <b>existir tres datos</b>.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>03</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">El tercer dato, va a tener la <b>misma información del dato 1 o 2</b>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-6"><img class="img-fluid img-a" src="assets/images/pages/img56.png" style="max-width: 80%"></div>
+                        </div>
+                        <div class="row rounded bg-color1 align-items-center mx-0">
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img57.png" style="max-width: 60%"></div>
+                            <div class="col">
+                                <h3 class="txt-color2">Importante</h3>
+                                <p class="mb-0">El tercer dato a veces no tiene la misma información del dato uno o dos, por tal motivo hay que hacer una conversión para que el tercer dato quede con la misma información del dato 1 o 2.</p>
+                            </div>
+                        </div>
+                        <p class="mt-5">Para poder resolver de manera lógica un problema de regla de tres, vamos a crear los siguientes pasos:</p>
+                        <div class="row justify-content-around">
+                            <div class="col-8 mt-3 px-0">
+                                <h3 class="txt-color1">Paso 1</h3>
+                            </div>
+                            <div class="col-8 bg-color1 text-center mb-4">
+                                <p class="mb-0">Enumerar los datos del problema como dato 1, dato 2 y dato 3.</p>
+                            </div>
+                            <div class="col-8 px-0">
+                                <h3 class="txt-color1">Paso 2</h3>
+                            </div>
+                            <div class="col-8 bg-color1 text-center mb-4">
+                                <p class="mb-0">Siempre se toma el tercer dato como referencia.</p>
+                            </div>
+                            <div class="col-8 px-0">
+                                <h3 class="txt-color1">Paso 3</h3>
+                            </div>
+                            <div class="col-8 bg-color1 text-center mb-4">
+                                <p class="mb-0">El tercer dato se multiplica por el dato que tenga diferente información del dato 1 o dato 2.</p>
+                            </div>
+                            <div class="col-8 px-0">
+                                <h3 class="txt-color1">Paso 4</h3>
+                            </div>
+                            <div class="col-8 bg-color1 text-center mb-4">
+                                <p class="mb-0">El dato que sobra, divide el resultado del paso 3.</p>
+                            </div>
+                        </div>
+                        <p>Veamos la información que acabamos de describir con un ejemplo.</p>
+                        <div class="row rounded bg-color1 align-items-center mx-0 mt-4">
+                            <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img58.png" style="max-width: 60%"></div>
+                            <div class="col">
+                                <p class="mb-0">Si Juan sale con su amiga y en 2 días se gasta $64.345, <b>¿Cuánto dinero se gastará Juan en el mes de Julio?</b></p>
+                            </div>
+                        </div>
+                        <p>Para dar conocer el valor que Juan gasta en el mes de julio, armemos los pasos.</p>
+                        <div class="row justify-content-around">
+                            <div class="col-8 mt-3 px-0">
+                                <h3 class="txt-color1">Paso 1</h3>
+                            </div>
+                            <div class="col-8 bg-color1 mb-4">
+                                <p><b>Dato 1</b>: 2 días</p>
+                                <p><b>Dato 2</b>: $64.345</p>
+                                <p class="mb-0"><b>Dato 3</b>: 1 mes “julio” = 31 días. Pero es importante tener en cuenta la siguiente recomendación:</p>
+                            </div>
+                            <div class="col-8">
+                                <div class="row rounded bg-color1 align-items-center mx-0">
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img57.png" style="max-width: 60%"></div>
+                                    <div class="col">
+                                        <h3 class="txt-color2">Importante</h3>
+                                        <p>Como el dato tres no tiene la misma información que el dato 1 realizamos la proporcionalidad para realizar la conversión. </p>
+                                        <p class="mb-0">Por lo tanto, el dato 3 es 1 mes, este equivale a 31 días, luego el dato 3 se convierte a 31 días.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-8 mt-3 px-0">
+                                <h3 class="txt-color1">Paso 2</h3>
+                            </div>
+                            <div class="col-8 bg-color1 mb-4">
+                                <p><b>El dato 3</b>, que equivale a <b>31 días</b>.</p>
+                            </div>
+                            <div class="col-8 mt-3 px-0">
+                                <h3 class="txt-color1">Paso 3</h3>
+                            </div>
+                            <div class="col-8 bg-color1 mb-4">
+                                <p>31 días x $64345 = <b>1994695</b></p>
+                            </div>
+                            <div class="col-8 mt-3 px-0">
+                                <h3 class="txt-color1">Paso 4</h3>
+                            </div>
+                            <div class="col-8 bg-color1 mb-4">
+                                <p>1994695 / 2 días</p>
+                            </div>
+                            <div class="col-8">
+                                <h3 class="txt-color2 text-center">Luego Juan gastará para el mes de julio un valor de $997.347</h3>
+                            </div>
+                        </div>
+                        <p class="mt-4">Es de esa manera, cómo podemos interpretar la regla de tres.</p>
+                        <p>Miremos esto en términos de la ecuación:</p><img class="img-fluid img-a" src="assets/images/pages/img59.png" style="max-width: 80%">
+                        <div class="row justify-content-around mb-4">
+                            <div class="col-8 bg-color1 text-center">
+                                <p class="mb-0">De acuerdo a lo visto, se puede comprender de una manera lógica la proporcionalidad a través de regla de tres y porcentajes.</p>
+                            </div>
+                        </div>
+                    </div><br id="proporcionalidad1">
+                    <div class="header-ecored">
+                        <h2>3.4 Proporcionalidad inversa (regla de tres simple inversa)</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <div class="row justify-content-center">
+                            <div class="col-12 bg-color1 p-4 rounded">
+                                <h3 class="txt-color1">Introducción</h3>
+                                <p>En este punto ya sabemos que existen variables que aumentan de manera proporcional, cuando aumenta una de ellas, la otra lo hará en una forma proporcional, pero ¿Qué pasa cuando una de las variables aumenta y la otra disminuye?</p>
+                                <p>En este caso tendremos una proporción inversa, esto quiere decir que cuando una aumenta la otra va a disminuir en una proporción igual.</p>
+                                <p>A continuación, se muestran algunas variables que tienen una proporción inversa:</p>
+                                <div class="row justify-content-center">
+                                    <div class="col-11">
+                                        <div class="list align-items-start">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Velocidad vs tiempo.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Densidad vs volumen.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Cantidad de operarios vs tiempo de entrega.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img60.png" style="max-width: 80%">
+                        <p>En este punto ya sabemos que existen variables que aumentan de manera proporcional, cuando aumenta una de ellas, la otra lo hará en una forma proporcional, pero ¿Qué pasa cuando una de las variables aumenta y la otra disminuye?</p>
+                        <p>En este caso tendremos una proporción inversa, esto quiere decir que cuando una aumenta la otra va a disminuir en una proporción igual.</p>
+                        <p>A continuación, se muestran algunas variables que tienen una proporción inversa:</p>
+                        <h3 class="txt-color2 mt-4">Ejemplo</h3>
+                        <div class="row justify-content-center">
+                            <div class="col-8 mb-4">
+                                <div class="row rounded bg-color1 align-items-center mx-0">
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img61.png" style="max-width: 60%"></div>
+                                    <div class="col">
+                                        <p>“Una empresa de confección de trajes de baño cuenta con 15 operarias para terminar un pedido en 10 días. <b>Si se desea sacar el pedido en 7 días ¿Cuántas operarias extra debe contratar la empresa?</b>”</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-8 mb-4">
+                                <h3 class="txt-color1">Paso 1</h3>
+                                <div class="row rounded bg-color1 align-items-center mx-0">
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img57.png" style="max-width: 60%"></div>
+                                    <div class="col">
+                                        <h3 class="txt-color2">Importante</h3>
+                                        <p>Lo primero que se debe hacer en este tipo de problemas es determinar cuáles son las variables del problema; en este caso serían: la cantidad de operarias vs días; ya con esto debemos determinar el tipo de relación que tienen ambas variables; para esto nos vamos a preguntar lo siguiente: si aumenta el número de operarias, la cantidad de días ¿aumentará o disminuirá?, como sabemos que la respuesta es que disminuyen entonces, tendremos una proporción inversa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-8 mb-4">
+                                <h3 class="txt-color1">Paso 2</h3>
+                                <div class="row align-items-center bg-color1 mx-0">
+                                    <div class="col-5 text-center">
+                                        <p class="mb-0">Aumenta la cantidad de operarias.</p>
+                                    </div>
+                                    <div class="col-2"><img class="img-fluid img-a1" src="assets/images/pages/img62.png" style="max-width: 60%"></div>
+                                    <div class="col-5 text-center">
+                                        <p class="mb-0">Disminuye la cantidad de días. (relación inversa)</p>
+                                    </div>
+                                </div>
+                                <p>Ahora vamos a asignar una columna a cada una de las variables y vamos a copiar los datos que corresponden en cada una de ellas.</p>
+                            </div>
+                            <div class="col-8 mb-4">
+                                <h3 class="txt-color1">Paso 3</h3>
+                                <div class="row align-items-center bg-color1 mx-0">
+                                    <div class="col-6 text-center">
+                                        <h2 class="text-color2">Cantidad operaria</h2>
+                                        <p>15</p>
+                                        <p class="mb-0">X</p>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <h2 class="text-color2">Días</h2>
+                                        <p>10</p>
+                                        <p class="mb-0">7</p>
+                                    </div>
+                                </div>
+                                <p>Ahora bien, como es una regla de tres inversa, podemos multiplicar los coeficientes de forma paralela:</p>
+                                <div class="row align-items-center bg-color1 mx-0">
+                                    <div class="col-5 text-center">
+                                        <h2 class="text-color2">Cantidad operaria</h2>
+                                        <p>15</p>
+                                        <p class="mb-0">X</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="mt-5 pt-4">-------------></p>
+                                        <p>-------------></p>
+                                    </div>
+                                    <div class="col-5 text-center">
+                                        <h2 class="text-color2">Días</h2>
+                                        <p>10</p>
+                                        <p class="mb-0">7</p>
+                                    </div>
+                                </div>
+                                <p>Y queda de la siguiente forma:</p>
+                            </div>
+                            <div class="col-8 mb-4">
+                                <h3 class="txt-color1">Paso 4</h3>
+                                <div class="row align-items-center bg-color1 mx-0">
+                                    <div class="col-12 text-center">
+                                        <p><b>7 * X</b> = 10 * 15</p>
+                                        <p><b>7 * X</b> = 150</p>
+                                        <p><b>X</b> = 150 / 7</p>
+                                        <p class="mb-0"><b>X</b> = 21.42</p>
+                                    </div>
+                                </div>
+                                <p>Esto significa que se necesitan 22 operarias para sacar el pedido en 7 días, pero recordemos que el problema me pide específicamente. <b>¿Cuántas operarias extras debe contratar la empresa?</b></p>
+                                <p>Teniendo en cuenta que ya la empresa cuenta con 15 operarias entonces solo faltaría hacer la resta.</p>
+                            </div>
+                            <div class="col-8 mb-4">
+                                <h3 class="txt-color1">Paso 5</h3>
+                                <p>Operarias que debe contratar la empresa:</p>
+                                <div class="row rounded bg-color1 align-items-center mx-0">
+                                    <div class="col">
+                                        <p>Cantidad de operarias extra = 22 - 15 = 7</p>
+                                        <h3 class="txt-color2">La empresa debe contratar 7 operarias más</h3>
+                                        <p>Ya con esto el problema está resuelto.</p>
+                                    </div>
+                                    <div class="col-auto"><img class="img-fluid img-a1" src="assets/images/pages/img63.png" style="max-width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p> <strong class="mr-2">Área:</strong>superficie acotada, que se distingue de lo que la rodea.</p>
+                        <p> <strong class="mr-2">Conjunto:</strong>es una colección de elementos de características similares considerada en sí misma como un objeto, un conjunto es aquel que está definido por sus miembros y nada más.</p>
+                        <p> <strong class="mr-2">Coordenada:</strong>línea recta que sirve para determinar la posición de un punto en un plano.</p>
+                        <p> <strong class="mr-2">Curva:</strong>es una línea cuyos puntos sucesivos cambian continuamente de dirección sin formar ángulo.</p>
+                        <p> <strong class="mr-2">Dimensión:</strong>magnitud que junto con otras; sirve para definir un fenómeno físico; específicamente, magnitud o magnitudes que se consideran en el espacio para determinar el tamaño de las cosas.</p>
+                        <p> <strong class="mr-2">Eje:</strong>recta alrededor de la cual se supone que gira una línea para generar una superficie o una superficie para generar un cuerpo.</p>
+                        <p> <strong class="mr-2">Incógnita:</strong>es un elemento constitutivo de una ecuación matemática, y describe una propiedad verificada por un valor desconocido, por lo general un número.</p>
+                        <p> <strong class="mr-2">Línea:</strong>sucesión continua de puntos en el espacio.</p>
+                        <p> <strong class="mr-2">Magnitud:</strong>es una medida asignada para cada uno de los objetos de un conjunto medible. Formada por objetos matemáticos.</p>
+                        <p> <strong class="mr-2">Medida:</strong>cantidad que resulta de medir una magnitud.</p>
+                        <p> <strong class="mr-2">Oblicuo:</strong>que forma con otra línea o plano un ángulo que no es recto.</p>
+                        <p> <strong class="mr-2">Perímetro:</strong>es la línea o el conjunto de líneas que forman el contorno de una superficie o de una figura.</p>
+                        <p> <strong class="mr-2">Polígono:</strong>figura geométrica plana que está limitada por tres o más rectas y tiene tres o más ángulos o vértices.</p>
+                        <p> <strong class="mr-2">Proporción:</strong>es la relación de igualdad entre dos razones matemáticas, o la comparación entre dos razones matemáticas.</p>
+                        <p> <strong class="mr-2">Razón:</strong>es una razón binaria entre magnitudes, se expresa como a es a b, o a: b, numéricamente una razón se puede expresar como una fracción o un decimal.</p>
+                        <p> <strong class="mr-2">Trigonometría:</strong>es una rama de matemáticas cuyo significado etimológico es la medición de triángulos.</p>
+                        <p> <strong class="mr-2">Teorema:</strong>proposición matemática demostrable a partir de axiomas o proposiciones ya demostradas.</p>
+                        <p> <strong class="mr-2">Volumen:</strong>se define como el espacio que ocupa un cuerpo.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Nombre del documento o material</th>
+                                    <th>Tipo de material</th>
+                                    <th>Enlace del recurso</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mora, Zambrano Armando - Matemáticas financieras. Bogotá: Alfaomega, 2019.</td>
+                                    <td>Pdf</td>
+                                    <td> <a href="http://biblioteca.sena.edu.co/F/Y1UI8GU8431MUD4E4DYTMR5N517CMRSD31JGN9I9TH92L8FFGU-12254?func=full-set-set&amp;set_number=002764&amp;set_entry=000002&amp;format=037" target="_blank"><span class="fa fa-file" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Moreno Machín, María y Gutiérrez Machín Ricardo - Introducción a las matemáticas. Madrid: Centro de Estudios Financieros, 2018.</td>
+                                    <td>Pdf</td>
+                                    <td> <a href="http://biblioteca.sena.edu.co/F/Y1UI8GU8431MUD4E4DYTMR5N517CMRSD31JGN9I9TH92L8FFGU-12590?func=full-set-set&amp;set_number=002766&amp;set_entry=000006&amp;format=040" target="_blank"><span class="fa fa-file" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Andrade López, Julio César - Ejercicio resueltos de matemáticas financiera. Bogotá: Eco ediciones, 2017.</td>
+                                    <td>Pdf</td>
+                                    <td> <a href="http://biblioteca.sena.edu.co/F/Y1UI8GU8431MUD4E4DYTMR5N517CMRSD31JGN9I9TH92L8FFGU-12889?func=full-set-set&amp;set_number=002767&amp;set_entry=000011&amp;format=040" target="_blank"><span class="fa fa-file" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Budnick, F., 1997. Matemáticas Aplicadas para Administración, Economía y Ciencias Sociales, Tercera Edición. Mc. Graw Hill. México.</p>
+                        <hr>
+                        <p>Curiosfera. (06 de 05 de 2020). Curiosfera historia.<a class="ml-2" href="https://curiosfera-historia.com/" target="_blank">https://curiosfera-historia.com/</a></p>
+                        <hr>
+                        <p>Ecured. (06 de 05 de 2020). Ecured: Enciclopedia cubana.<a class="ml-2" href="https://www.ecured.cu/EcuRed:Enciclopedia_cubana" target="_blank">https://www.ecured.cu/EcuRed:Enciclopedia_cubana</a></p>
+                        <hr>
+                        <p>Smartick . (05 de junio de 2020). Smartick: Matemáticas a un click.<a class="ml-2" href="https://www.smartick.es/?f=1" target="_blank">https://www.smartick.es/?f=1</a></p>
+                        <hr>
+                        <p>Sullivan, M., 1997. Precálculo. Cuarta Edición. Pearson Educación. México.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzón</strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander</span></p>
+                        <p class="footer-texto mb-2"><strong>Oscar Andrés Hernández</strong><br /><span class="text-small">Experta tematica<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Servicio y Gestión Empresarial</span><br><span class="text-small">Regional Antioquia</span></p>
+                        <p class="footer-texto mb-2"><strong>Nathaly Ramírez</strong><br /><span class="text-small">Experto tematico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Formación en Diseño y Confección y Moda</span><br><span class="text-small">Regional Antioquia</span></p>
+                        <p class="footer-texto mb-2"><strong>Carlos Andrés Rodríguez</strong><br /><span class="text-small">Diseñador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Diseño y Metrología</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Gloria Esperanza Ortiz Russi</strong><br /><span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Diseño y Metrología</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Martha Isabel Martínez Vargas</strong><br /><span class="text-small">Revisora de estilo<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro Industrial Del Diseño Y La Manufactura</span><br><span class="text-small">Regional Santander</span></p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Leyson Fabian Castaño Perez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto mb-2"> <strong>José Jaime Luis Tang Pinzón</strong><br /><span class="text-small">Diseño web & producción audiovisual<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Jhon Jairo Urueta Alvarez</strong><br /><span class="text-small">Desarrollo Front-End<br /></span></p>
+                        <p class="footer-texto mb-2"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander</span></p>
+                        <h4 class="footer-subtitulo-2 mt-4">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"> <strong>Brayan Steven Pinto Diaz</strong><br />
+                            <strong>Ricardo Alfonso Gonzalez Vargas</strong><br /><span class="text-small">Validación de recursos<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO DE COMERCIO Y SERVICIOS</span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="d-flex flex-column justify-content-center"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="136" viewBox="0 0 136 136">
+  <g id="Grupo_31021" data-name="Grupo 31021" transform="translate(-351 -1180)">
+    <g id="Elipse_1617" data-name="Elipse 1617" transform="translate(351 1180)" fill="#f3f9ff" stroke="#039be5" stroke-width="5">
+      <circle cx="68" cy="68" r="68" stroke="none"/>
+      <circle cx="68" cy="68" r="65.5" fill="none"/>
+    </g>
+    <g id="Grupo_30536" data-name="Grupo 30536" transform="translate(454.033 1240.443) rotate(90)">
+      <g id="Rectángulo_6753" data-name="Rectángulo 6753" transform="translate(-0.444 0.033)" fill="#fff" stroke="#039be5" stroke-width="2">
+        <rect width="16" height="16" stroke="none"/>
+        <rect x="1" y="1" width="14" height="14" fill="none"/>
+      </g>
+      <g id="Rectángulo_6756" data-name="Rectángulo 6756" transform="translate(-0.444 27.033)" fill="#fff" stroke="#039be5" stroke-width="2">
+        <rect width="16" height="16" stroke="none"/>
+        <rect x="1" y="1" width="14" height="14" fill="none"/>
+      </g>
+      <g id="Rectángulo_6758" data-name="Rectángulo 6758" transform="translate(-0.444 54.033)" fill="#fff" stroke="#039be5" stroke-width="2">
+        <rect width="16" height="16" stroke="none"/>
+        <rect x="1" y="1" width="14" height="14" fill="none"/>
+      </g>
+      <g id="Rectángulo_6754" data-name="Rectángulo 6754" transform="translate(-0.444 14.033)" fill="#fff" stroke="#039be5" stroke-width="2">
+        <rect width="16" height="15" stroke="none"/>
+        <rect x="1" y="1" width="14" height="13" fill="none"/>
+      </g>
+      <g id="Rectángulo_6755" data-name="Rectángulo 6755" transform="translate(-0.444 41.033)" fill="#fff" stroke="#039be5" stroke-width="2">
+        <rect width="16" height="16" stroke="none"/>
+        <rect x="1" y="1" width="14" height="14" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

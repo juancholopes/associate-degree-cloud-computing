@@ -1,0 +1,23 @@
+<svg id="analitica_1_" data-name="analitica (1)" xmlns="http://www.w3.org/2000/svg" width="60.06" height="60.06" viewBox="0 0 60.06 60.06">
+  <circle id="Elipse_1198" data-name="Elipse 1198" cx="30" cy="30" r="30" transform="translate(0 0)" fill="#ffcd00"/>
+  <path id="Trazado_4352" data-name="Trazado 4352" d="M155.98,142.152c0-.837-.036-1.666-.1-2.486l-12.644-12.644-34.565,30.259,14.8,14.8c.82.067,1.649.1,2.486.1A30.03,30.03,0,0,0,155.98,142.152Z" transform="translate(-95.92 -112.122)" fill="#ff8e00"/>
+  <path id="Trazado_4353" data-name="Trazado 4353" d="M263.114,190.273l-18.634-1.351,1.351,23h17.283Z" transform="translate(-215.802 -166.761)" fill="#d1e8ff"/>
+  <path id="Trazado_4354" data-name="Trazado 4354" d="M108.666,190.273V211.92h17.283v-23Z" transform="translate(-95.919 -166.761)" fill="#f5f5ff"/>
+  <path id="Trazado_4355" data-name="Trazado 4355" d="M263.114,127.021H245.831l-1.351,4.306,1.351,4.306h17.283Z" transform="translate(-215.802 -112.121)" fill="#6283a3"/>
+  <rect id="Rectángulo_4839" data-name="Rectángulo 4839" width="17.282" height="8.612" transform="translate(12.747 14.9)" fill="#9abadb"/>
+  <rect id="Rectángulo_4840" data-name="Rectángulo 4840" width="2.153" height="2.025" transform="translate(15.977 18.194)" fill="#f09"/>
+  <rect id="Rectángulo_4841" data-name="Rectángulo 4841" width="2.153" height="2.025" transform="translate(20.283 18.194)" fill="#ffed94"/>
+  <rect id="Rectángulo_4842" data-name="Rectángulo 4842" width="2.153" height="2.025" transform="translate(24.589 18.194)" fill="#0093c4"/>
+  <path id="Trazado_4356" data-name="Trazado 4356" d="M245.846,289.062h2.871v-6.521l-4.222-1.351Z" transform="translate(-215.815 -248.205)" fill="#f09"/>
+  <path id="Trazado_4357" data-name="Trazado 4357" d="M231.541,282.541v6.521h2.871V281.19Z" transform="translate(-204.38 -248.205)" fill="#ff68a5"/>
+  <path id="Trazado_4358" data-name="Trazado 4358" d="M317.2,263.663V272.4h5.742v-8.735l-2.871-1.351Z" transform="translate(-279.989 -231.542)" fill="#f09"/>
+  <g id="Grupo_20864" data-name="Grupo 20864" transform="translate(28.68 27.815)">
+    <rect id="Rectángulo_4843" data-name="Rectángulo 4843" width="5.742" height="4.306" transform="translate(8.529)" fill="#ff8e00"/>
+    <path id="Trazado_4359" data-name="Trazado 4359" d="M245.846,237.122l-1.351,3.26,1.351,3.26h2.871v-6.521Z" transform="translate(-244.495 -237.122)" fill="#ff8e00"/>
+  </g>
+  <path id="Trazado_4360" data-name="Trazado 4360" d="M145.856,305.726H151.6v-4.306l-2.871-1.351-2.871,1.351Z" transform="translate(-128.747 -264.869)" fill="#ff68a5"/>
+  <g id="Grupo_20865" data-name="Grupo 20865" transform="translate(17.11 27.815)">
+    <rect id="Rectángulo_4844" data-name="Rectángulo 4844" width="5.742" height="8.736" fill="#ffcd00"/>
+    <rect id="Rectángulo_4845" data-name="Rectángulo 4845" width="2.871" height="6.521" transform="translate(10.051)" fill="#ffcd00"/>
+  </g>
+</svg>

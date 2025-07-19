@@ -1,0 +1,217 @@
+<div class="container" id="estadistica">
+    <div class="header-ecored">
+        <h1>1. Conceptos de la derivada</h1>
+    </div>
+    <div class="card shadow"><img class="img-fluid" src="assets/images/pages/img1.png" style="max-width: 100%" />
+        <div class="card-body">
+            <p>En nuestro diario vivir nos encontramos con situaciones que van cambiando según las circunstancias, por ejemplo, ir en un carro de una ciudad A, a una ciudad B de Colombia, registrará diferentes velocidades dependiendo del camino, tráfico y otros elementos. Otra situación es el cambio de temperatura que sufre un buen chocolate caliente, a medida que pasa el tiempo este se enfría, por lo menos queda a temperatura ambiente o al clima como dicen en muchas partes del país; y así se tienen muchos ejemplos más de cambios de situaciones cotidianas y como se mencionó en temas anteriores, estas situaciones se relacionan con funciones, ¿y los cambios?, estos se relacionan con derivadas.</p>
+            <p class="mt-3">Las derivadas, así como las funciones, están en todas partes, ya que registra el cambio o variación de la función, así que podemos realizar análisis de diferentes situaciones a partir de la derivada.</p>
+        </div>
+    </div><br id="definicion" />
+    <div class="header-ecored">
+        <h2>1.1 Definición geométrica de la derivada</h2>
+    </div>
+    <div class="jumbotron bg-white shadow">
+        <div class="row align-items-center">
+            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img2.png" style="max-width: 90%" /></div>
+            <div class="col">
+                <p>Para acercarnos al concepto de derivada, se toma un problema de velocidad. En la siguiente gráfica se muestra el desplazamiento s de un vehículo en función del tiempo t.</p>
+                <p>Con esta información podemos calcular la velocidad promedio del vehículo, que será la variación de la posición dividida entre la variación del tiempo.</p>
+            </div>
+        </div>
+        <div class="row mt-4 bg-color1">
+            <div class="col-12 p-4 bg-color2">
+                <h3 class="text-center mb-0 text-white">¿Y qué es la variación de la posición y del tiempo?</h3>
+            </div>
+            <div class="col-12 p-4">
+                <p>La variación será la diferencia entre un punto final menos un punto inicial. La variación se representa con el símbolo delta ∆.</p>
+                <p>Si t en un tiempo inicial, y t + h es un tiempo final, donde h representa un valor después de t , entonces, la variación del tiempo será:</p>
+                <p class="my-4 text-center">∆t = t<sub>0 </sub>+ h - t<sub>0 </sub>= h</p>
+                <p>La distancia inicial será la posición de s en t , es decir la posición inicial es s(t ), por lo tanto, la posición final es s(t +h). Entonces:</p>
+                <p class="mb-0 text-center">∆s = s( t<sub>0 </sub>+ h ) - s ( t<sub>0 </sub>)</p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <p>En la siguiente gráfica se ve la representación de la posición y del tiempo, donde A<sub>0 </sub>en la coordenada del punto A<sub>0 </sub>( t<sub>0</sub>, s ( t<sub>0 </sub>) ) y A ( t<sub>0 </sub>+ h, s ( t<sub>0 </sub>+ h ) ) y h es cualquier lapso de tiempo después de t.</p>
+            </div>
+            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img3.png" style="max-width: 90%" /></div>
+        </div>
+        <div class="hr"></div>
+        <p>Como se mencionó, la velocidad promedio en el cociente entre la variación de la posición y la variación del tiempo, esto es:</p><img class="img-fluid img-a" src="assets/images/pages/img4.png" style="max-width: 90%" />
+        <p>Lo anterior se conoce también como cociente incremental.</p>
+        <div class="row mt-4 bg-color1">
+            <div class="col-12 p-4 bg-color2">
+                <h3 class="text-center mb-0 text-white">¿Pero qué significa el cociente incremental?</h3>
+            </div>
+            <div class="col-12 p-4">
+                <p>Gráficamente, el cociente incremental no es más que la pendiente de la recta que pasa por los puntos:</p>
+                <p class="my-4 text-center">A<sub>0 </sub>( t<sub>0 </sub>, s ( t<sub>0 </sub>) ) y A ( t<sub>0 </sub>+ h , s ( t<sub>0 </sub>+ h ) )</p>
+                <p class="mb-0">Esta recta, es secante a la curva dada por s(t). La pendiente de la recta en este caso, es la velocidad promedio <i>Vprom</i></p>
+            </div>
+        </div>
+        <p class="mt-4">Ahora, si varía el valor de h de manera que sea muy cercano a cero, es decir que todos los valores de t + h<sub>0 </sub>sean muy cercanos a t<sub>0 </sub>, se obtendrán diferentes rectas secantes con sus respectivas velocidades promedio como se observa en la siguiente animación.</p>
+        <div class="row justify-content-center mt-4">
+            <div class="col-10">
+                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="media/documentos/Video1.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            </div>
+        </div>
+        <h3 class="mt-5 txt-color2">Ejemplo</h3><img class="img-fluid img-a" src="assets/images/pages/img5.png" style="max-width: 60%" />
+        <div class="row justify-content-around my-4">
+            <div class="col-8 bg-color1 p-4">
+                <p>El movimiento de un vehículo está dado por:</p>
+                <p class="text-center">s ( t ) = -0.4t<sup>2 </sup>+ 8t</p>
+                <p class="mb-0">con s en kilómetros y t en horas.</p>
+            </div>
+        </div>
+        <p>Para un t<sub>0 </sub>= 4 horas entonces.</p>
+        <div class="row justify-content-around my-4">
+            <div class="col-8 bg-color1 p-4">
+                <p class="mb-0 text-center">s ( t<sub>0 </sub>) = s ( 4 ) = -0.4 ( 4 )<sup>2 </sup>+ 8 ( 4 ) = 25.6 km</p>
+            </div>
+        </div>
+        <p>Ahora h toma cualquier valor, en este caso un tiempo después de t<sub>0 </sub>, sea h = 13 horas, entonces:</p>
+        <div class="row justify-content-around my-4">
+            <div class="col-8 bg-color1 p-4">
+                <p class="mb-0 text-center">s ( t<sub>0 </sub>+ h ) = s ( 4 + 13 ) = s ( 17 ) = -0.4 ( 17 )<sup>2 </sup>+ 8 ( 17 ) = 20.4 km</p>
+            </div>
+        </div>
+        <p>Se calcula la velocidad promedio:</p><img class="img-fluid img-a" src="assets/images/pages/img6.png" style="max-width: 70%" /><img class="img-fluid img-a" src="assets/images/pages/img7.png" style="max-width: 100%" />
+        <p>Se varía h, se ve las diferentes velocidades promedio, ver la siguiente animación:</p>
+        <div class="row justify-content-center mt-4">
+            <div class="col-10">
+                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="media/documentos/Video1.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            </div>
+        </div>
+        <p class="mt-4">Como se pudo observar el punto A<sub>0 </sub>( t<sub>0</sub>, s ( t<sub>0 </sub>) ), permanece fijo y solo el punto A ( t<sub>0 </sub>+ h, s ( t<sub>0 </sub>+ h ) ), se desplazó en dirección al punto A<sub>0</sub>. Esto es porque se está variando h con valores pequeños cercanos a cero. Esta variación llevará a que en algún momento A se superponga a A<sub>0</sub>, lo que significa que no se formarán una recta secante, sino una recta tangente a la curva dada por s en punto A<sub>0</sub>.</p><img class="img-fluid img-a" src="assets/images/pages/img8.png" style="max-width: 100%" />
+        <p>Ahora v<sub>0</sub>, es la velocidad instantánea en t<sub>0</sub>, lo cual significa que podemos calcular la velocidad instantánea en cualquier tiempo t<sub>0</sub>, por lo tanto</p><img class="img-fluid img-a" src="assets/images/pages/img9.png" style="max-width: 100%" />
+        <h3 class="mt-5 txt-color2">Ejemplo</h3>
+        <p>Un objeto es lanzado hacia arriba desde una altura de 7 metros, su trayectoria s en metros en cada momento segundo t es:</p>
+        <div class="row justify-content-around my-4">
+            <div class="col-8 bg-color1 p-4">
+                <p class="mb-0 text-center">s ( t ) = -4.9t<sup>2 </sup>+ 7t + 7</p>
+            </div>
+        </div><img class="img-fluid img-a" src="assets/images/pages/img10.png" style="max-width: 100%" />
+        <p>El signo en la velocidad instantánea se debe a que el objeto en algún momento está subiendo y va en contra de la gravedad y luego a favor de esta.</p>
+    </div><br id="derivada" />
+    <div class="header-ecored">
+        <h2>1.2 Derivada de una función en un punto</h2>
+    </div>
+    <div class="jumbotron bg-white shadow"><img class="img-fluid img-a" src="assets/images/pages/img11.png" style="max-width: 90%" />
+        <p>es la derivada de la función f en el punto x<sub>0</sub>.</p>
+        <div class="hr"></div><img class="img-fluid img-a" src="assets/images/pages/img12.png" style="max-width: 90%" />
+        <h3 class="mt-5 txt-color2">Ejemplo</h3>
+        <div class="row justify-content-around my-4">
+            <div class="col-8 bg-color1 p-4">
+                <p class="text-center">Considere la función</p>
+                <p class="text-center">f(x) = 3x<sup>2 </sup>y x<sub>0 </sub>= 4</p>
+                <p class="text-center">se quiere encontrar f' ( 3 )</p>
+            </div>
+        </div>
+        <h3 class="mt-5 txt-color2">Solución</h3><img class="img-fluid img-a" src="assets/images/pages/img13.png" style="max-width: 90%" />
+    </div><br id="calculo" />
+    <div class="header-ecored">
+        <h2>1.3 Cálculo de la derivada</h2>
+    </div>
+    <div class="jumbotron bg-white shadow"><img class="img-fluid img-a" src="assets/images/pages/img14.png" style="max-width: 90%" /></div><br id="derivadas" />
+    <div class="header-ecored">
+        <h2>1.4 Derivadas de funciones trascendentes</h2>
+    </div>
+    <div class="card shadow"><img class="img-fluid" src="assets/images/pages/img15.png" style="max-width: 100%" />
+        <div class="card-body">
+            <p>Las funciones trascendentes son un tipo de funciones donde la variable independiente aparece como una potencia, como parte del argumento de un logaritmo o el ángulo de una función trigonométrica, estas funciones son:</p>
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <div class="list align-items-start mt-4">
+                        <div class="list__item">
+                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg" /></div>
+                        </div>
+                        <div class="list__txt">
+                            <p class="mt-1"><b>Funciones trigonométricas</b></p>
+                            <p>(seno, coseno, tangente, secante, cosecante, cotangente)</p>
+                        </div>
+                    </div>
+                    <div class="list align-items-start mt-4">
+                        <div class="list__item">
+                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg" /></div>
+                        </div>
+                        <div class="list__txt">
+                            <p class="mt-1"><b>Función Exponencial</b></p>
+                        </div>
+                    </div>
+                    <div class="list align-items-start mt-4">
+                        <div class="list__item">
+                            <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg" /></div>
+                        </div>
+                        <div class="list__txt">
+                            <p class="mt-1"><b>Función Logarítmica</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div><img class="img-fluid img-a" src="assets/images/pages/img16.png" style="max-width: 90%" />
+            <p>En este curso las derivadas de las funciones trascendentes las denotaremos como reglas de derivación:</p><img class="img-fluid img-a" src="assets/images/pages/img17.png" style="max-width: 90%" />
+        </div>
+    </div><br id="regla" />
+    <div class="header-ecored">
+        <h2>1.5 Regla de L'Hopital</h2>
+    </div>
+    <div class="jumbotron bg-white shadow">
+        <p>La regla de L’Hopital nos ayuda a evaluar límites indeterminados de la forma 0/0, o ∞/∞ cuando se sustituye el límite. Estas son límites de funciones de la forma f(x)/(g(x)) y esta regla consiste derivar el numerador y el de denominador como dos funciones independientes siempre que exista la deriva en ese punto, la veces que sea necesario hasta encontrar el límite siempre que el resultado anterior sea de la forma 0/0, o ∞/∞.</p><img class="img-fluid img-a" src="assets/images/pages/img18.png" style="max-width: 90%" />
+        <h3 class="mt-5 txt-color2">Aplicación</h3>
+        <p>La población de cierta clase de bacteria, en un ambiente controlado, se puede modelar con la siguiente función:</p><img class="img-fluid img-a" src="assets/images/pages/img19.png" style="max-width: 90%" />
+        <p>donde P es la población de bacterias cada t horas.</p>
+        <p>Si el tiempo pasa indefinidamente, ¿cómo será el tamaño de la población?</p>
+        <h3 class="mt-5 txt-color2">Solución</h3>
+        <p>Como el tiempo pasa indefinidamente, se considera t → ∞, por lo tanto, analizaremos el límite de la función P(t)</p><img class="img-fluid img-a" src="assets/images/pages/img20.png" style="max-width: 90%" />
+        <p>Evaluado directamente el límite se obtiene:</p><img class="img-fluid img-a" src="assets/images/pages/img21.png" style="max-width: 90%" />
+        <p>Evaluado directamente el límite se obtiene:</p><img class="img-fluid img-a" src="assets/images/pages/img22.png" style="max-width: 90%" />
+        <div class="row justify-content-around my-4">
+            <div class="col-8 bg-color1 p-4">
+                <p class="mb-0">Esto significa que esta bacteria en el ambiente controlado después de mucho tiempo, su población tenderá a tener 25 bacterias.</p>
+            </div>
+        </div>
+    </div><br id="criterio" />
+    <div class="header-ecored">
+        <h2>1.6 Criterios de la primera y segunda derivada (puntos críticos, máximo, mínimos)</h2>
+    </div>
+    <div class="jumbotron bg-white shadow">
+        <p>Antes de hablar de máximo y mínimos relativos, mencionaremos los puntos críticos.</p><img class="img-fluid img-a" src="assets/images/pages/img23.png" style="max-width: 90%" />
+        <h3 class="mt-5 txt-color2">Criterio primera derivada</h3>
+        <div class="row justify-content-center mt-4">
+            <div class="col-10">
+                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/eh-NDkH-hXk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            </div>
+        </div>
+        <h3 class="mt-5 txt-color2">Criterio segunda derivadas</h3>
+        <p>Sea una función y uno de sus puntos críticos. Entonces:</p>
+        <div class="row justify-content-center">
+            <div class="col-11">
+                <div class="list align-items-start mt-4">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p class="mt-1">si , la función tiene un máximo en</p>
+                    </div>
+                </div>
+                <div class="list align-items-start mt-4">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p class="mt-1">si , la función tiene un punto de inflexión en </p>
+                    </div>
+                </div>
+            </div>
+        </div><img class="img-fluid img-a" src="assets/images/pages/img24.png" style="max-width: 60%" />
+        <div class="hr"></div>
+        <h3 class="mt-5 txt-color2">Ejemplo</h3>
+        <p>Sea la función:</p>
+        <div class="row justify-content-around my-4">
+            <div class="col-8 bg-color1 p-4">
+                <p class="mb-0 text-center">f(x) = 0.2x<sup>3 </sup>- 0.3x<sup>2 </sup>- 7.2x - 0.2</p>
+            </div>
+        </div>
+        <p>Como se puede ver en la gráfica tiene un punto máximo relativo y un punto mínimo relativo.</p><img class="img-fluid img-a" src="assets/images/pages/img25.png" style="max-width: 90%" /><img class="img-fluid img-a" src="assets/images/pages/img26.png" style="max-width: 90%" />
+    </div>
+</div>

@@ -1,0 +1,148 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "area",
+    "title": "1. Área y volumen",
+    "breadcrumb": ["Inicio","area"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "area",
+        "title": "1.1 Área de figuras planas",
+        "anchor": "area1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "area",
+        "title": "1.2 Volumen de sólidos regulares",
+        "anchor": "area2"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "trigonometria",
+    "title": "2. Trigonometría",
+    "breadcrumb": ["Inicio","trigonometria"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "trigonometria",
+        "title": "2.1 Plano cartesiano",
+        "anchor": "plano"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "trigonometria",
+        "title": "2.2 Razones trigonométricas",
+        "anchor": "razones"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "trigonometria",
+        "title": "2.3 Teorema de Pitágoras",
+        "anchor": "teorema"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "trigonometria",
+        "title": "2.4 Ley de senos y cosenos",
+        "anchor": "ley"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "ecuaciones",
+    "title": "3. Ecuaciones",
+    "breadcrumb": ["Inicio","ecuaciones"],
+    "path": "pages/3-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "ecuaciones",
+        "title": "3.1 Ecuación",
+        "anchor": "variables"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "ecuaciones",
+        "title": "3.2 Ecuaciones lineales",
+        "anchor": "ecuaciones1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "ecuaciones",
+        "title": "3.3 Sistema de ecuaciones lineales 2x2",
+        "anchor": "sistema"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "ecuaciones",
+        "title": "3.4 Ecuaciones cuadráticas",
+        "anchor": "ecuaciones2"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "funciones",
+    "title": "4. Funciones",
+    "breadcrumb": ["Inicio","funciones"],
+    "path": "pages/4-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "funciones",
+        "title": "4.1 Definición y ejemplo de función",
+        "anchor": "definicion"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "funciones",
+        "title": "4.2 Definición de dominio",
+        "anchor": "definicion1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "funciones",
+        "title": "4.3 Ejemplo de aplicación de la función",
+        "anchor": "ejemplo"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "fa fa-file-text",
+    "slug": "funcion",
+    "title": "5. Función lineal",
+    "breadcrumb": ["Inicio","funcion"],
+    "path": "pages/5-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "funcion",
+        "title": "5.1 Las funciones lineales",
+        "anchor": "las"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "funcion",
+        "title": "5.2 Características de la función lineal",
+        "anchor": "caracteristicas1"
+      }
+    ]
+  }
+]
