@@ -1,6 +1,6 @@
 # Associate Degree Cloud Computing
 
-This repository is my personal space to document and share everything I learn in the Associate Degree Cloud Computing, equivalent to an Associate Degree in the U.S. context. Here you will find materials, assignments, reports, and resources that I have developed and collected during my studies.
+This repository is my personal space to document and share everything I learn in the Associate Degree Cloud Computing. Here you will find materials, assignments, reports, and resources that I have developed and collected during my studies.
 
 <img src="https://komarev.com/ghpvc/?username=juancholopes&color=61dafb&style=flat-square&label=Profile+Views" alt="Profile Views" />
 
