@@ -7,16 +7,13 @@ This repository is my personal space to document and share everything I learn in
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/juancholopes?style=social">
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/juancholopes?style=social">
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Followers-161?style=for-the-badge&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/badge/Stars-206?style=for-the-badge&logo=github" alt="Stars" />
-</p>
 
 ## About the repository
 
 The structure is organized by modules and activities, where each folder contains the files and materials for the different units of the course. Here you will find technical reports, problem analysis, optimization proposals, and multimedia resources.
 
 ### Main modules
+
 - **Module 1:** Fundamentals and elicitation techniques, requirements management, validation, and technical documentation.
 - **Module 2:** Web development, problem analysis, optimization, applied mathematics, and advanced projects.
 
@@ -58,6 +55,7 @@ Each module contains subfolders for specific activities, study materials, and de
 </p>
 
 ## What can you find here?
+
 - Technical and written reports
 - Optimization proposals
 - Development exercises and activities
@@ -65,4 +63,5 @@ Each module contains subfolders for specific activities, study materials, and de
 - Code examples and practical projects
 
 ---
+
 Repository created and maintained by @juancholopes.
