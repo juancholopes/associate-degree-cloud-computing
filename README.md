@@ -2,8 +2,11 @@
 
 This repository is my personal space to document and share everything I learn in the Associate Degree Cloud Computing. Here you will find materials, assignments, reports, and resources that I have developed and collected during my studies.
 
-<img src="https://komarev.com/ghpvc/?username=juancholopes&color=61dafb&style=flat-square&label=Profile+Views" alt="Profile Views" />
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=juancholopes&label=Profile%20views&color=9F7AEA&style=flat" alt="Profile views" />
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/juancholopes?style=social">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/juancholopes?style=social">
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Followers-161?style=for-the-badge&logo=github" alt="Followers" />
   <img src="https://img.shields.io/badge/Stars-206?style=for-the-badge&logo=github" alt="Stars" />
