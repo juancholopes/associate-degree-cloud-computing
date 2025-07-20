@@ -1,6 +1,6 @@
 # Associate Degree Cloud Computing
 
-Este repositorio es mi espacio personal para documentar y compartir todo lo que aprendo en el curso de Cloud Computing, equivalente a un Associate Degree en el contexto estadounidense. Aquí encontrarás materiales, trabajos, informes y recursos que he desarrollado y recopilado durante mi formación.
+This repository is my personal space to document and share everything I learn in the Associate Degree Cloud Computing, equivalent to an Associate Degree in the U.S. context. Here you will find materials, assignments, reports, and resources that I have developed and collected during my studies.
 
 <img src="https://komarev.com/ghpvc/?username=juancholopes&color=61dafb&style=flat-square&label=Profile+Views" alt="Profile Views" />
 
@@ -9,17 +9,17 @@ Este repositorio es mi espacio personal para documentar y compartir todo lo que 
   <img src="https://img.shields.io/badge/Stars-206?style=for-the-badge&logo=github" alt="Stars" />
 </p>
 
-## Sobre el repositorio
+## About the repository
 
-La estructura está organizada por módulos y actividades, donde cada carpeta contiene los archivos y materiales de las diferentes unidades del curso. Aquí se incluyen informes técnicos, análisis de problemas, propuestas de optimización, y recursos multimedia.
+The structure is organized by modules and activities, where each folder contains the files and materials for the different units of the course. Here you will find technical reports, problem analysis, optimization proposals, and multimedia resources.
 
-### Módulos principales
-- **Módulo 1:** Fundamentos y técnicas de elicitación, gestión de requisitos, validación y documentación técnica.
-- **Módulo 2:** Desarrollo web, análisis de problemas, optimización, matemáticas aplicadas y proyectos avanzados.
+### Main modules
+- **Module 1:** Fundamentals and elicitation techniques, requirements management, validation, and technical documentation.
+- **Module 2:** Web development, problem analysis, optimization, applied mathematics, and advanced projects.
 
-Cada módulo contiene subcarpetas para actividades específicas, materiales de estudio y entregables.
+Each module contains subfolders for specific activities, study materials, and deliverables.
 
-## Tecnologías y herramientas que estoy aprendiendo
+## Technologies and tools I'm learning
 
 <p align="center">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
@@ -54,12 +54,12 @@ Cada módulo contiene subcarpetas para actividades específicas, materiales de e
   </a>
 </p>
 
-## ¿Qué puedes encontrar aquí?
-- Informes técnicos y escritos
-- Propuestas de optimización
-- Ejercicios y actividades de desarrollo
-- Material de estudio y recursos multimedia
-- Ejemplos de código y proyectos prácticos
+## What can you find here?
+- Technical and written reports
+- Optimization proposals
+- Development exercises and activities
+- Study material and multimedia resources
+- Code examples and practical projects
 
 ---
-Repositorio creado y mantenido por @juancholopes.
+Repository created and maintained by @juancholopes.
