@@ -45,5 +45,3 @@ Each module contains subfolders for specific activities, study materials, and de
 - Code examples and practical projects
 
 ---
-
-Repository created and maintained by @juancholopes.
