@@ -16,6 +16,8 @@ The structure is organized by modules and activities, where each folder contains
 
 - **Module 1:** Fundamentals and elicitation techniques, requirements management, validation, and technical documentation.
 - **Module 2:** Web development, problem analysis, optimization, applied mathematics, and advanced projects.
+- Module 3: SQL Fundamentals (MySQL) and NO SQL (Mongo DB), Database Management Systems.
+- Module 4:
 
 Each module contains subfolders for specific activities, study materials, and deliverables.
 
