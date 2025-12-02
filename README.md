@@ -46,5 +46,3 @@ Each module contains subfolders for specific activities, study materials, and de
 - Development exercises and activities
 - Study material and multimedia resources
 - Code examples and practical projects
-
----
